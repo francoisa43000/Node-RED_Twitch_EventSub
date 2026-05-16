@@ -1518,8 +1518,7 @@
         "y": 110,
         "wires": [
             [
-                "ad6618efadfffb7c",
-                "d063ce8e1987378e"
+                "gen_oauth_state_fn"
             ]
         ]
     },
@@ -1713,7 +1712,7 @@
         "z": "df207830040c7255",
         "g": "fbd6b9fb.b67658",
         "name": "Request USER Token",
-        "func": "const code = msg.payload.code;\nmsg = {};\nmsg.url = \"https://id.twitch.tv/oauth2/token?\";\nmsg.url += \"client_id=\" + flow.get('ClientID');\nmsg.url += \"&client_secret=\" + flow.get('ClientSecret');\nmsg.url += \"&code=\" + code;\nmsg.url += \"&grant_type=authorization_code\";\nmsg.url += \"&redirect_uri=https://\" + flow.get('SubURI') + \"/debug\";\nreturn msg;",
+        "func": "const code = msg.req.query.code;\nconst receivedState = msg.req.query.state;\nconst expectedState = flow.get('OAuthState');\n\n// Validate CSRF state \u2014 reject if state is missing or does not match.\n// Note: for the /apptoken implicit flow, the state arrives in the URL fragment\n// (client-side only) and cannot be validated server-side via this handler.\nif (!expectedState || !receivedState || receivedState !== expectedState) {\n    node.warn('CSRF state mismatch on /usertoken (expected: ' + expectedState + ', received: ' + receivedState + ')');\n    msg.statusCode = 403;\n    msg.payload = 'CSRF validation failed';\n    return null;\n}\n\nmsg = {};\nmsg.url = \"https://id.twitch.tv/oauth2/token?\";\nmsg.url += \"client_id=\" + flow.get('ClientID');\nmsg.url += \"&client_secret=\" + flow.get('ClientSecret');\nmsg.url += \"&code=\" + code;\nmsg.url += \"&grant_type=authorization_code\";\nmsg.url += \"&redirect_uri=https://\" + flow.get('SubURI') + \"/usertoken\";\nreturn msg;\n",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -1878,7 +1877,7 @@
         "fieldType": "msg",
         "format": "handlebars",
         "syntax": "mustache",
-        "template": "https://id.twitch.tv/oauth2/authorize?client_id={{flow.ClientID}}&redirect_uri=https://{{flow.SubURI}}/apptoken&response_type=token&scope={{flow.Scopes}}",
+        "template": "https://id.twitch.tv/oauth2/authorize?client_id={{flow.ClientID}}&redirect_uri=https://{{flow.SubURI}}/apptoken&response_type=token&scope={{flow.Scopes}}&state={{flow.OAuthState}}",
         "output": "str",
         "x": 540,
         "y": 70,
@@ -1898,7 +1897,7 @@
         "fieldType": "msg",
         "format": "handlebars",
         "syntax": "mustache",
-        "template": "https://id.twitch.tv/oauth2/authorize?client_id={{flow.ClientID}}&redirect_uri=https://{{flow.SubURI}}/usertoken&response_type=code&scope={{flow.Scopes}}",
+        "template": "https://id.twitch.tv/oauth2/authorize?client_id={{flow.ClientID}}&redirect_uri=https://{{flow.SubURI}}/usertoken&response_type=code&scope={{flow.Scopes}}&state={{flow.OAuthState}}",
         "output": "str",
         "x": 730,
         "y": 70,
@@ -2220,8 +2219,7 @@
         "y": 70,
         "wires": [
             [
-                "ad6618efadfffb7c",
-                "d063ce8e1987378e"
+                "gen_oauth_state_fn"
             ]
         ]
     },
@@ -5522,5 +5520,26 @@
         "x": 1120,
         "y": 1200,
         "wires": []
+    },
+    {
+        "id": "gen_oauth_state_fn",
+        "type": "function",
+        "z": "df207830040c7255",
+        "g": "fbd6b9fb.b67658",
+        "name": "Generate OAuth State",
+        "func": "// Generate a fresh random CSRF state token before building OAuth URLs\nconst crypto = require('crypto');\nflow.set('OAuthState', crypto.randomBytes(16).toString('hex'));\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 500,
+        "y": 70,
+        "wires": [
+            [
+                "ad6618efadfffb7c",
+                "d063ce8e1987378e"
+            ]
+        ]
     }
 ]
