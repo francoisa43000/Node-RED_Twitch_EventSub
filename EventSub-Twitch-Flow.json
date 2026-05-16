@@ -1,1 +1,5545 @@
-[REDACTED - will include full updated JSON flow]
+[
+    {
+        "id": "df207830040c7255",
+        "type": "tab",
+        "label": "Settings",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "bedf5b9469855c83",
+        "type": "tab",
+        "label": "Response",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "20a1fcbd1d2fea63",
+        "type": "group",
+        "z": "df207830040c7255",
+        "name": "Subscriptions ",
+        "style": {
+            "stroke": "#000000",
+            "fill": "#addb7b",
+            "label": true,
+            "color": "#000000",
+            "fill-opacity": "0.46"
+        },
+        "nodes": [
+            "26d8d7df.be0958",
+            "98d5cd6c.f2a68",
+            "f2b8d96b.d631b8",
+            "f70bfcf8.11e1",
+            "7dbcec20.5ced04",
+            "5bff93af.87898c",
+            "690eda34.2888d4",
+            "d3a93046ef612be8",
+            "7e0de8ca88627f13",
+            "ec98aacb0f957338",
+            "30982b64daa64b4f",
+            "fd85f36550d37557",
+            "ce3d135404921045",
+            "3c4839ef38d1e5be",
+            "49ebc9ee3ff5553f",
+            "6aa36f6125c38ddf",
+            "84e31e98de53c8f6",
+            "566b14e2f0568603",
+            "a383193c03077b55",
+            "f9c17dfc34ee6ddc",
+            "c7fe8d294efda317",
+            "82b0797b3012e829",
+            "30fbfd9411298b86",
+            "ee66b6128ff85327",
+            "8b713e9019cc4516",
+            "ffae0df38c6c8c22",
+            "2c9e19de6c1f6cd4",
+            "5e33e16d982b9232",
+            "dd4a8a1e4291d855",
+            "bcb057363ba3c378",
+            "d2fd9327385f9448",
+            "8a66fd4794b48b1b",
+            "697267a917a5ede1",
+            "e3011972045e8564",
+            "1053bfdaa6f39afb",
+            "6a40e123a2c65178",
+            "c6a0489a3ee00082"
+        ],
+        "x": 24,
+        "y": 499,
+        "w": 1532,
+        "h": 452
+    },
+    {
+        "id": "fbd6b9fb.b67658",
+        "type": "group",
+        "z": "df207830040c7255",
+        "name": "API Settings",
+        "style": {
+            "stroke": "#000000",
+            "fill": "#ff3f3f",
+            "fill-opacity": "0.42",
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "beab0c19.6d93b",
+            "966a372a.a07628",
+            "a9ab8eef.baa2",
+            "566f2428.09694c",
+            "b8602e99.36c57",
+            "fd63f4262302c5b3",
+            "7ac706a80063eebd",
+            "c93450a865e58d44",
+            "252b179b82c058d7",
+            "293eff994c230d75",
+            "e0b907cdd8ccc1cf",
+            "3b0aad40327d2546",
+            "1112a9e81345ea8b",
+            "9a8612014ad4c799",
+            "379327a91b22c7dd",
+            "e44ac409f8d18e83",
+            "8b2294e6bc52446d",
+            "3f7a96c6437a13b9",
+            "a0c81e642c7a3105",
+            "ad6618efadfffb7c",
+            "d063ce8e1987378e",
+            "2c88d43747076c97",
+            "e35fd443178b1637",
+            "d7b248978206a06f",
+            "b1096a477fb9abe5",
+            "055dadece0fd3af6",
+            "aea1f7b492402c01",
+            "4d6e5b640e32530c",
+            "2b8377a30ae7e578",
+            "2c4a0a29dd209504",
+            "18a0ecdb51dce96a",
+            "a70f82e316ae9b20",
+            "eff64b41360d736d",
+            "ecd9237822214175",
+            "e6f5f8a94cc12207",
+            "4c3ce8432cc7554a",
+            "527713e229815eae",
+            "645e4c286635a52f",
+            "b9d57c51dcfa392e"
+        ],
+        "x": 24,
+        "y": 29,
+        "w": 872,
+        "h": 462
+    },
+    {
+        "id": "da23423c6c5ba9f9",
+        "type": "group",
+        "z": "df207830040c7255",
+        "name": "Webhook",
+        "style": {
+            "stroke": "#000000",
+            "fill": "#7fb7df",
+            "label": true,
+            "color": "#000000",
+            "fill-opacity": "0.5"
+        },
+        "nodes": [
+            "172852334e067eab",
+            "a14899d1bdaee6ae",
+            "e9b516c0427c7331",
+            "9bae08932a4b918f",
+            "b99ebb122e5c2d93",
+            "e2b1a1d555abedaa",
+            "496beddfeba0baee",
+            "09b3f14a7ec50bce",
+            "8c2a43d196ec7e5c",
+            "83822eaec1eca52b",
+            "9ae2fc3a337f9a0e",
+            "70fdfa29ec214ea2",
+            "189539cfa8fd4634",
+            "0953d456cfdb4563",
+            "94f06a5db5091ecc",
+            "f4803e78add4ee2f"
+        ],
+        "x": 24,
+        "y": 959,
+        "w": 1362,
+        "h": 202
+    },
+    {
+        "id": "1d9e4b26a824022f",
+        "type": "group",
+        "z": "bedf5b9469855c83",
+        "name": "EventSub Switch",
+        "style": {
+            "stroke": "#000000",
+            "fill": "#c8e7a7",
+            "fill-opacity": "0.49",
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "4b779b18cfa18def",
+            "fee40a11987375da",
+            "c46892d6233c5391",
+            "03f134a19d11f009",
+            "0e717f858b8d799c",
+            "bd60cc12bad786d6",
+            "d1c64ebc8a5feec9",
+            "099c35a256887f74",
+            "35d2b6f068729230",
+            "9f4b9459d55f954b",
+            "d6b5f07cf744a7b2",
+            "66db194703a62045",
+            "789b0a1d5d87ac36",
+            "74325974cbdc5c90",
+            "353f3049743bafc3",
+            "85deb0b591c10ce6",
+            "e1ed82cfe4ac1c7b",
+            "dd04e54715766887",
+            "a69ac429f7a89027",
+            "7008cac6ebd21511",
+            "4f3290f9114221db",
+            "442489b5937e9783",
+            "8e64834c2e4ab9c6",
+            "14246c59203bf325",
+            "f76ce5c449b39ec1",
+            "ec063c27cbdff5bc",
+            "fc172da139ae610c",
+            "09ca04c0b1964ea9",
+            "3e4196fcfe60dd91",
+            "904fead80acf0883",
+            "57835b0e8181dc56",
+            "b97c23ba88296b1b",
+            "b4c1b467be768e4a",
+            "76a3218918c97560",
+            "90d9f9f778dfea84",
+            "1b82f3fefef1c56c",
+            "427e0239f95d69ba",
+            "f71de6f3f45ab546",
+            "aafeca1840745c1a",
+            "641360867f4299e0",
+            "956b7e15e56e3e6e",
+            "2557738c1c37389e",
+            "976a5ddd48218c96",
+            "aa03c725061760dd",
+            "c936ce23cdc37428",
+            "7cb22ecd302d5fe5",
+            "8b358c8a79eba44f",
+            "e2e09ba8297e6c08",
+            "91a14548331e78ff",
+            "74a51ad373778ee6",
+            "cb0ba07aa871111a",
+            "e8239ae110070f53",
+            "104b71d90f13b9fa",
+            "3b489bf1f69ab04e",
+            "e158862b2ad9e355",
+            "a3ee39814135cad2",
+            "4309ad73534e365c",
+            "2e435c1be18bebf7",
+            "07c0971dd23dd62d",
+            "59dac292ac05e5d8",
+            "9cae1c4a7541c723",
+            "52f26835eeca107c",
+            "03c5d3303b39046e",
+            "8fe676f729352bd3",
+            "870a89265d2adf1d",
+            "8a0b93500015be22"
+        ],
+        "x": 34,
+        "y": 19,
+        "w": 692,
+        "h": 922
+    },
+    {
+        "id": "c3a384b88e4aae92",
+        "type": "group",
+        "z": "bedf5b9469855c83",
+        "name": "Events",
+        "style": {
+            "stroke": "#000000",
+            "fill": "#c8e7a7",
+            "fill-opacity": "0.51",
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "7098c94cefad6f46",
+            "3c5392d536a6758c",
+            "d8d1f2dfc5c946e8",
+            "e3fdefc8024d75a1",
+            "781d8b6ea144560b",
+            "46a3a69959ede421",
+            "0706fa919a2b66b7",
+            "13aa39ce93155d90",
+            "22b9bd03717a6092",
+            "bc942504e9d6822a",
+            "c9bd7b1cdbdaca88",
+            "2e12e6b6e53b0967",
+            "f436b7331bd9609b",
+            "c4cd0c41321ef3bd",
+            "4c49467a35df9851",
+            "674ee05d36a01381",
+            "ca9267f59495a61e",
+            "c282f7bbe2ea94a6",
+            "6c6457495d5b73d4",
+            "0e8b1da7d78d9e04",
+            "216bb963f207e682",
+            "46a44352c8d66e56",
+            "d1e21ddc83cc908f",
+            "b7796720760df4ca",
+            "e7138cd2dc73b8c0",
+            "2a80b4bcb77e25b1",
+            "3ee0a398d56ce81b",
+            "2720e13c28d5f2a6",
+            "bb15db95da85594b",
+            "f23b95398eaa0fb5",
+            "c977fc48940eaa1f",
+            "0a6403e990465b45",
+            "e66321b5eebb9e62",
+            "013eac261f7f830a",
+            "82982a94bf2f96e5",
+            "7822bd853ff32202",
+            "440ca17ff1420dfe",
+            "e3a2b757bc7b4f00",
+            "bf777e01107c8dad",
+            "02eff79de54243df",
+            "cf8eb778297937fe",
+            "31b7edc241da122b",
+            "58059205d3b59963",
+            "d3ae76bd5a99fe61",
+            "4ce638dd76c24bdb",
+            "d8842a92a68f0e27",
+            "9438739a0d42032a",
+            "ba962cb706960ca3",
+            "3445992ddf31cb4e",
+            "bcf41039c5488aa0",
+            "2082c62be84dcf16",
+            "1d7fb21bf35a91b8",
+            "9f32750213a4f0c6",
+            "65537eb9b8bb35b8",
+            "c22851c0379367b6",
+            "df791e577307e9f7",
+            "44c07fb9fc35c75c",
+            "b30cfc59e8cbe783",
+            "97fecabe81f273fd",
+            "4f2895be0123f5f4",
+            "63c02972795b5176",
+            "e3d6d7b46a2d2955",
+            "aa6229c18fc2ac6d"
+        ],
+        "env": [],
+        "x": 754,
+        "y": 21.5,
+        "w": 512,
+        "h": 1219.5
+    },
+    {
+        "id": "9fcc1ffb8aba8b21",
+        "type": "ui-group",
+        "name": "Subscribe",
+        "page": "4afe96710c08f056",
+        "width": "6",
+        "height": "1",
+        "order": 2,
+        "showTitle": true,
+        "className": "",
+        "visible": true,
+        "disabled": false
+    },
+    {
+        "id": "ee20fe791dedef03",
+        "type": "ui-group",
+        "name": "Unsubscribe",
+        "page": "4afe96710c08f056",
+        "width": "6",
+        "height": "1",
+        "order": 3,
+        "showTitle": true,
+        "className": "",
+        "visible": true,
+        "disabled": false
+    },
+    {
+        "id": "4afe96710c08f056",
+        "type": "ui-page",
+        "name": "EventSub",
+        "ui": "abb6f1bda92477eb",
+        "path": "/eventsub",
+        "icon": "mdi-twitch",
+        "layout": "grid",
+        "theme": "",
+        "order": 13,
+        "className": "",
+        "visible": true,
+        "disabled": false
+    },
+    {
+        "id": "174e8ee08b6a981f",
+        "type": "ui-group",
+        "name": "Settings",
+        "page": "4afe96710c08f056",
+        "width": "6",
+        "height": "1",
+        "order": 1,
+        "showTitle": true,
+        "className": "",
+        "visible": true,
+        "disabled": false
+    },
+    {
+        "id": "f0f95ba1.2e5f08",
+        "type": "mqtt-broker",
+        "name": "VPS",
+        "broker": "lab.gervasi.be",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "compatmode": false,
+        "protocolVersion": "3",
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": "",
+        "willMsg": {},
+        "sessionExpiry": ""
+    },
+    {
+        "id": "abb6f1bda92477eb",
+        "type": "ui-base",
+        "path": "/dashboard",
+        "includeClientData": true,
+        "acceptsClientConfig": [
+            "ui-notification",
+            "ui-control"
+        ],
+        "showPathInSidebar": false,
+        "navigationStyle": "icon",
+        "titleBarStyle": "hidden"
+    },
+    {
+        "id": "26d8d7df.be0958",
+        "type": "function",
+        "z": "df207830040c7255",
+        "g": "20a1fcbd1d2fea63",
+        "name": "Format subscription",
+        "func": "const Type = msg.type;\nmsg = {\n    \"headers\" : {\n        \"Client-ID\": flow.get('ClientID'),\n        \"Authorization\": flow.get('AppToken'),\n        \"Accept\" : \"application/json\"\n    },\n    \"method\": \"POST\",\n    \"url\" : \"https://api.twitch.tv/helix/eventsub/subscriptions\",\n    \"payload\" : {\n        \"type\": Type,\n        \"version\": \"1\",\n        \"condition\": {\n            \"broadcaster_user_id\": flow.get('ChannelID')\n        },\n        \"transport\": {\n            \"method\": \"webhook\",\n            \"callback\": \"https://\" + flow.get('SubURI') + \"/webhook\",\n            \"secret\": flow.get('SubSecret')\n        }\n    }\n}\n\nif(Type == \"channel.raid\"){\n    msg.payload.condition = {\n        \"to_broadcaster_user_id\" : flow.get('ChannelID')\n    }\n}\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 530,
+        "y": 630,
+        "wires": [
+            [
+                "98d5cd6c.f2a68"
+            ]
+        ]
+    },
+    {
+        "id": "98d5cd6c.f2a68",
+        "type": "http request",
+        "z": "df207830040c7255",
+        "g": "20a1fcbd1d2fea63",
+        "name": "",
+        "method": "use",
+        "ret": "obj",
+        "paytoqs": "ignore",
+        "url": "",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "authType": "",
+        "senderr": false,
+        "x": 720,
+        "y": 630,
+        "wires": [
+            [
+                "5bff93af.87898c",
+                "5e33e16d982b9232"
+            ]
+        ]
+    },
+    {
+        "id": "f2b8d96b.d631b8",
+        "type": "function",
+        "z": "df207830040c7255",
+        "g": "20a1fcbd1d2fea63",
+        "name": "Unsubscribe",
+        "func": "const ID = msg.id;\nmsg = {\n    \"headers\" : {\n        \"Client-ID\" : flow.get('ClientID'),\n        \"Authorization\" : flow.get('AppToken')\n    },\n    \"method\": \"DELETE\",\n    \"url\": \"https://api.twitch.tv/helix/eventsub/subscriptions?id=\" + ID\n}\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 550,
+        "y": 710,
+        "wires": [
+            [
+                "f70bfcf8.11e1"
+            ]
+        ]
+    },
+    {
+        "id": "f70bfcf8.11e1",
+        "type": "http request",
+        "z": "df207830040c7255",
+        "g": "20a1fcbd1d2fea63",
+        "name": "",
+        "method": "use",
+        "ret": "txt",
+        "paytoqs": "ignore",
+        "url": "",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "authType": "",
+        "x": 720,
+        "y": 710,
+        "wires": [
+            [
+                "2c9e19de6c1f6cd4"
+            ]
+        ]
+    },
+    {
+        "id": "7dbcec20.5ced04",
+        "type": "function",
+        "z": "df207830040c7255",
+        "g": "20a1fcbd1d2fea63",
+        "name": "Succes",
+        "func": "msg.payload = \"Subscription successful\"\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1050,
+        "y": 540,
+        "wires": [
+            [
+                "ce3d135404921045"
+            ]
+        ]
+    },
+    {
+        "id": "5bff93af.87898c",
+        "type": "switch",
+        "z": "df207830040c7255",
+        "g": "20a1fcbd1d2fea63",
+        "name": "check status",
+        "property": "statusCode",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "202",
+                "vt": "num"
+            },
+            {
+                "t": "eq",
+                "v": "409",
+                "vt": "num"
+            },
+            {
+                "t": "eq",
+                "v": "400",
+                "vt": "num"
+            },
+            {
+                "t": "eq",
+                "v": "403",
+                "vt": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 4,
+        "x": 880,
+        "y": 630,
+        "wires": [
+            [
+                "7dbcec20.5ced04"
+            ],
+            [
+                "690eda34.2888d4"
+            ],
+            [
+                "d3a93046ef612be8"
+            ],
+            [
+                "7e0de8ca88627f13"
+            ]
+        ]
+    },
+    {
+        "id": "690eda34.2888d4",
+        "type": "function",
+        "z": "df207830040c7255",
+        "g": "20a1fcbd1d2fea63",
+        "name": "Already Exist",
+        "func": "msg.payload = msg.payload.message;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1060,
+        "y": 580,
+        "wires": [
+            [
+                "ce3d135404921045"
+            ]
+        ]
+    },
+    {
+        "id": "d3a93046ef612be8",
+        "type": "function",
+        "z": "df207830040c7255",
+        "g": "20a1fcbd1d2fea63",
+        "name": "Bad Request",
+        "func": "msg.payload = msg.payload.message;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1060,
+        "y": 620,
+        "wires": [
+            [
+                "ce3d135404921045"
+            ]
+        ]
+    },
+    {
+        "id": "7e0de8ca88627f13",
+        "type": "function",
+        "z": "df207830040c7255",
+        "g": "20a1fcbd1d2fea63",
+        "name": "Forbidden",
+        "func": "msg.payload = msg.payload.message;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1050,
+        "y": 660,
+        "wires": [
+            [
+                "ce3d135404921045"
+            ]
+        ]
+    },
+    {
+        "id": "ec98aacb0f957338",
+        "type": "ui-dropdown",
+        "z": "df207830040c7255",
+        "g": "20a1fcbd1d2fea63",
+        "group": "9fcc1ffb8aba8b21",
+        "name": "",
+        "label": "Subscription list",
+        "order": 4,
+        "width": 6,
+        "height": 1,
+        "passthru": true,
+        "multiple": false,
+        "chips": false,
+        "clearable": false,
+        "options": [
+            {
+                "label": "Channel Update",
+                "value": "channel.update"
+            },
+            {
+                "label": "Follower",
+                "value": "channel.follow"
+            },
+            {
+                "label": "Subscriber",
+                "value": "channel.subscribe"
+            },
+            {
+                "label": "SubGift",
+                "value": "channel.subscription.gift"
+            },
+            {
+                "label": "Sub Message",
+                "value": "channel.subscription.message"
+            },
+            {
+                "label": "Bits",
+                "value": "channel.cheer"
+            },
+            {
+                "label": "Raid",
+                "value": "channel.raid"
+            },
+            {
+                "label": "Ban",
+                "value": "channel.ban"
+            },
+            {
+                "label": "Unban",
+                "value": "channel.unban"
+            },
+            {
+                "label": "Channel Point",
+                "value": "channel.channel_points_custom_reward_redemption.add"
+            },
+            {
+                "label": "Poll begin",
+                "value": "channel.poll.begin"
+            },
+            {
+                "label": "Poll Progress",
+                "value": "channel.poll.progress"
+            },
+            {
+                "label": "Poll end",
+                "value": "channel.poll.end"
+            },
+            {
+                "label": "Prediction begin",
+                "value": "channel.prediction.begin"
+            },
+            {
+                "label": "Prediction Progress",
+                "value": "channel.prediction.progress"
+            },
+            {
+                "label": "Prediction end",
+                "value": "channel.prediction.end"
+            },
+            {
+                "label": "HypeTrain begin",
+                "value": "channel.hype_train.begin"
+            },
+            {
+                "label": "HypeTrain Progress",
+                "value": "channel.hype_train.progress"
+            },
+            {
+                "label": "HypeTrain end",
+                "value": "channel.hype_train.end"
+            },
+            {
+                "label": "Stream ON",
+                "value": "stream.online"
+            },
+            {
+                "label": "Stream OFF",
+                "value": "stream.offline"
+            }
+        ],
+        "payload": "",
+        "topic": "topic",
+        "topicType": "str",
+        "className": "",
+        "x": 130,
+        "y": 540,
+        "wires": [
+            [
+                "fd85f36550d37557",
+                "ee66b6128ff85327"
+            ]
+        ]
+    },
+    {
+        "id": "30982b64daa64b4f",
+        "type": "ui-button",
+        "z": "df207830040c7255",
+        "g": "20a1fcbd1d2fea63",
+        "group": "9fcc1ffb8aba8b21",
+        "name": "",
+        "label": "Subscribe",
+        "order": 5,
+        "width": 6,
+        "height": 1,
+        "emulateClick": false,
+        "buttonColor": "",
+        "textColor": "",
+        "iconPosition": "left",
+        "icon": "",
+        "iconHeight": "30px",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "subscribe",
+        "topicType": "str",
+        "className": "",
+        "x": 110,
+        "y": 630,
+        "wires": [
+            [
+                "8b713e9019cc4516"
+            ]
+        ]
+    },
+    {
+        "id": "fd85f36550d37557",
+        "type": "ui-text",
+        "z": "df207830040c7255",
+        "g": "20a1fcbd1d2fea63",
+        "group": "9fcc1ffb8aba8b21",
+        "name": "",
+        "label": "Selected subscription",
+        "order": 6,
+        "width": 6,
+        "height": 1,
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#717171",
+        "className": "",
+        "x": 340,
+        "y": 580,
+        "wires": []
+    },
+    {
+        "id": "ce3d135404921045",
+        "type": "ui-text",
+        "z": "df207830040c7255",
+        "g": "20a1fcbd1d2fea63",
+        "group": "9fcc1ffb8aba8b21",
+        "name": "",
+        "label": "Response",
+        "order": 7,
+        "width": 6,
+        "height": 1,
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#717171",
+        "className": "",
+        "x": 1240,
+        "y": 540,
+        "wires": []
+    },
+    {
+        "id": "3c4839ef38d1e5be",
+        "type": "function",
+        "z": "df207830040c7255",
+        "g": "20a1fcbd1d2fea63",
+        "name": "Get active subscriptions",
+        "func": "msg = {\n    \"headers\" : {\n        \"Client-ID\": flow.get('ClientID'),\n        \"Authorization\": flow.get('AppToken'),\n        \"Accept\": \"application/json\"\n    },\n    \"url\": \"https://api.twitch.tv/helix/eventsub/subscriptions\"\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 360,
+        "y": 770,
+        "wires": [
+            [
+                "49ebc9ee3ff5553f"
+            ]
+        ]
+    },
+    {
+        "id": "49ebc9ee3ff5553f",
+        "type": "http request",
+        "z": "df207830040c7255",
+        "g": "20a1fcbd1d2fea63",
+        "name": "",
+        "method": "GET",
+        "ret": "obj",
+        "paytoqs": "ignore",
+        "url": "",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "authType": "",
+        "senderr": false,
+        "x": 560,
+        "y": 770,
+        "wires": [
+            [
+                "6aa36f6125c38ddf"
+            ]
+        ]
+    },
+    {
+        "id": "6aa36f6125c38ddf",
+        "type": "function",
+        "z": "df207830040c7255",
+        "g": "20a1fcbd1d2fea63",
+        "name": "List Sub ID",
+        "func": "let Sub_ID = {};\nlet Channel_ID = \"\";\nlet Notif_Type = \"\";\nlet Notif_ID = \"\";\n\nfor (let i = 0; i < msg.payload.data.length ; i++){\n    if (msg.payload.data[i].condition.hasOwnProperty(\"broadcaster_user_id\")){\n        Channel_ID = msg.payload.data[i].condition.broadcaster_user_id;\n    }\n    else{\n        Channel_ID = msg.payload.data[i].condition.to_broadcaster_user_id;\n    }\n    Notif_Type = msg.payload.data[i].type;\n    Notif_ID = msg.payload.data[i].id;\n    if (!Sub_ID.hasOwnProperty(Channel_ID)) {\n        Sub_ID[Channel_ID] = {};\n    }\n    if (!Sub_ID[Channel_ID].hasOwnProperty(Notif_Type)) {\n        Sub_ID[Channel_ID][Notif_Type] = Notif_ID;\n    }\n}\n\nflow.set('Subscription_ID', Sub_ID);\nmsg.payload = Sub_ID;\nmsg.topic = \"Sub_ID\";\n\nreturn msg;\n\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 730,
+        "y": 770,
+        "wires": [
+            [
+                "566b14e2f0568603",
+                "dd4a8a1e4291d855"
+            ]
+        ]
+    },
+    {
+        "id": "84e31e98de53c8f6",
+        "type": "ui-button",
+        "z": "df207830040c7255",
+        "g": "20a1fcbd1d2fea63",
+        "group": "ee20fe791dedef03",
+        "name": "",
+        "label": "Refresh",
+        "order": 1,
+        "width": 2,
+        "height": 1,
+        "emulateClick": false,
+        "buttonColor": "",
+        "textColor": "",
+        "iconPosition": "left",
+        "icon": "",
+        "iconHeight": "30px",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "str",
+        "className": "",
+        "x": 120,
+        "y": 770,
+        "wires": [
+            [
+                "3c4839ef38d1e5be",
+                "1053bfdaa6f39afb"
+            ]
+        ]
+    },
+    {
+        "id": "566b14e2f0568603",
+        "type": "function",
+        "z": "df207830040c7255",
+        "g": "20a1fcbd1d2fea63",
+        "name": "Setup Dropdown",
+        "func": "const Broadcaster_ID = flow.get('ChannelID');\nconst Sub_ID = flow.get('Subscription_ID')||{};\nconst Subscriptions = Sub_ID[Broadcaster_ID];\nmsg = {options : []}\n\nfor(var type in Subscriptions){\n    msg.options.push({[type] : Subscriptions[type]})\n}\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1160,
+        "y": 770,
+        "wires": [
+            [
+                "a383193c03077b55"
+            ]
+        ]
+    },
+    {
+        "id": "a383193c03077b55",
+        "type": "ui-dropdown",
+        "z": "df207830040c7255",
+        "g": "20a1fcbd1d2fea63",
+        "group": "ee20fe791dedef03",
+        "name": "",
+        "label": "Active sub",
+        "order": 5,
+        "width": 6,
+        "height": 1,
+        "passthru": true,
+        "multiple": false,
+        "chips": false,
+        "clearable": false,
+        "options": [
+            {
+                "label": "",
+                "value": ""
+            }
+        ],
+        "payload": "",
+        "topic": "topic",
+        "topicType": "str",
+        "className": "",
+        "x": 1190,
+        "y": 820,
+        "wires": [
+            [
+                "82b0797b3012e829",
+                "30fbfd9411298b86"
+            ]
+        ]
+    },
+    {
+        "id": "f9c17dfc34ee6ddc",
+        "type": "ui-button",
+        "z": "df207830040c7255",
+        "g": "20a1fcbd1d2fea63",
+        "group": "ee20fe791dedef03",
+        "name": "",
+        "label": "Unsubscribe",
+        "order": 2,
+        "width": 2,
+        "height": 1,
+        "emulateClick": false,
+        "buttonColor": "",
+        "textColor": "",
+        "iconPosition": "left",
+        "icon": "",
+        "iconHeight": "30px",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "unsubscribe",
+        "topicType": "str",
+        "className": "",
+        "x": 120,
+        "y": 710,
+        "wires": [
+            [
+                "ffae0df38c6c8c22"
+            ]
+        ]
+    },
+    {
+        "id": "c7fe8d294efda317",
+        "type": "ui-text",
+        "z": "df207830040c7255",
+        "g": "20a1fcbd1d2fea63",
+        "group": "ee20fe791dedef03",
+        "name": "",
+        "label": "Response",
+        "order": 7,
+        "width": 6,
+        "height": 1,
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#717171",
+        "className": "",
+        "x": 1410,
+        "y": 710,
+        "wires": []
+    },
+    {
+        "id": "82b0797b3012e829",
+        "type": "ui-text",
+        "z": "df207830040c7255",
+        "g": "20a1fcbd1d2fea63",
+        "group": "ee20fe791dedef03",
+        "name": "",
+        "label": "Selected unsubscription",
+        "order": 6,
+        "width": 6,
+        "height": 1,
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#717171",
+        "className": "",
+        "x": 1420,
+        "y": 820,
+        "wires": []
+    },
+    {
+        "id": "30fbfd9411298b86",
+        "type": "function",
+        "z": "df207830040c7255",
+        "g": "20a1fcbd1d2fea63",
+        "name": "Save current UnSub",
+        "func": "flow.set(\"unsubscription\", msg.payload);\nmsg.payload = \"waiting\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1420,
+        "y": 770,
+        "wires": [
+            [
+                "c7fe8d294efda317"
+            ]
+        ]
+    },
+    {
+        "id": "ee66b6128ff85327",
+        "type": "function",
+        "z": "df207830040c7255",
+        "g": "20a1fcbd1d2fea63",
+        "name": "Save current Sub",
+        "func": "flow.set(\"subscription\", msg.payload);\nmsg.payload = \"waiting\";\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 330,
+        "y": 540,
+        "wires": [
+            [
+                "ce3d135404921045"
+            ]
+        ]
+    },
+    {
+        "id": "8b713e9019cc4516",
+        "type": "change",
+        "z": "df207830040c7255",
+        "g": "20a1fcbd1d2fea63",
+        "name": "Set Subscription",
+        "rules": [
+            {
+                "t": "set",
+                "p": "type",
+                "pt": "msg",
+                "to": "subscription",
+                "tot": "flow"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 320,
+        "y": 630,
+        "wires": [
+            [
+                "26d8d7df.be0958"
+            ]
+        ]
+    },
+    {
+        "id": "ffae0df38c6c8c22",
+        "type": "change",
+        "z": "df207830040c7255",
+        "g": "20a1fcbd1d2fea63",
+        "name": "Set UnSubscription",
+        "rules": [
+            {
+                "t": "set",
+                "p": "id",
+                "pt": "msg",
+                "to": "unsubscription",
+                "tot": "flow"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 330,
+        "y": 710,
+        "wires": [
+            [
+                "f2b8d96b.d631b8"
+            ]
+        ]
+    },
+    {
+        "id": "2c9e19de6c1f6cd4",
+        "type": "function",
+        "z": "df207830040c7255",
+        "g": "20a1fcbd1d2fea63",
+        "name": "Response ?",
+        "func": "if(msg.payload == \"\"){\n    msg.payload = \"Unsubscription successful\";\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 890,
+        "y": 710,
+        "wires": [
+            [
+                "c7fe8d294efda317"
+            ]
+        ]
+    },
+    {
+        "id": "5e33e16d982b9232",
+        "type": "debug",
+        "z": "df207830040c7255",
+        "g": "20a1fcbd1d2fea63",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 870,
+        "y": 580,
+        "wires": []
+    },
+    {
+        "id": "dd4a8a1e4291d855",
+        "type": "function",
+        "z": "df207830040c7255",
+        "g": "20a1fcbd1d2fea63",
+        "name": "List Subscriptions",
+        "func": "let IDs = context.get(\"IDs\")||[];\nlet Length = context.get(\"Length\")||0;\nlet Counter = context.get(\"Counter\")||0;\nlet Usernames = context.get(\"Usernames\")||{};\nlet Sub_ID = flow.get('Subscription_ID') || {};\n\n\nif (Object.keys(msg.payload).length === 0){\n    msg = { options: [] };\n    return [null, null, msg];\n}\nif (msg.topic == \"Sub_ID\"){\n    IDs = Object.keys(Sub_ID);\n    Length = IDs.length;\n    Counter = 0;\n    context.set(\"IDs\", IDs);\n    context.set(\"Length\", Length);\n    context.set(\"Counter\", Counter);\n    return [{ payload: parseInt(IDs[0]) }, null];\n}\n\nif(Counter < Length -1){\n    Usernames[msg.payload.data[0].broadcaster_login] = IDs[Counter];\n    context.set(\"Usernames\", Usernames);\n    context.set(\"Counter\", Counter + 1);\n    return [{ payload: parseInt(IDs[Counter +1])}, null];\n}\nelse{\n    Usernames[msg.payload.data[0].broadcaster_login] = IDs[Counter];\n    msg = { options: [] };\n    for (var username in Usernames) {\n        msg.options.push({ [username]: [username] })\n    }\n    return [null, msg];\n}\n",
+        "outputs": 3,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 750,
+        "y": 820,
+        "wires": [
+            [
+                "bcb057363ba3c378",
+                "bcb057363ba3c378"
+            ],
+            [
+                "d2fd9327385f9448",
+                "d2fd9327385f9448",
+                "6a40e123a2c65178"
+            ],
+            [
+                "6a40e123a2c65178",
+                "d2fd9327385f9448"
+            ]
+        ]
+    },
+    {
+        "id": "bcb057363ba3c378",
+        "type": "function",
+        "z": "df207830040c7255",
+        "g": "20a1fcbd1d2fea63",
+        "name": "Request channel Name",
+        "func": "msg = {\n    \"headers\": {\n        \"Client-ID\": flow.get('ClientID'),\n        \"Authorization\": flow.get('AppToken')\n    },\n    \"url\": 'https://api.twitch.tv/helix/channels?broadcaster_id='  + msg.payload\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1000,
+        "y": 870,
+        "wires": [
+            [
+                "8a66fd4794b48b1b",
+                "8a66fd4794b48b1b"
+            ]
+        ]
+    },
+    {
+        "id": "d2fd9327385f9448",
+        "type": "ui-dropdown",
+        "z": "df207830040c7255",
+        "g": "20a1fcbd1d2fea63",
+        "group": "ee20fe791dedef03",
+        "name": "",
+        "label": "Channels",
+        "order": 4,
+        "width": 6,
+        "height": 1,
+        "passthru": true,
+        "multiple": false,
+        "chips": false,
+        "clearable": false,
+        "options": [
+            {
+                "label": "",
+                "value": ""
+            }
+        ],
+        "payload": "",
+        "topic": "topic",
+        "topicType": "str",
+        "className": "",
+        "x": 950,
+        "y": 820,
+        "wires": [
+            [
+                "697267a917a5ede1"
+            ]
+        ]
+    },
+    {
+        "id": "8a66fd4794b48b1b",
+        "type": "http request",
+        "z": "df207830040c7255",
+        "g": "20a1fcbd1d2fea63",
+        "name": "Request",
+        "method": "GET",
+        "ret": "obj",
+        "paytoqs": "ignore",
+        "url": "",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "authType": "",
+        "senderr": false,
+        "x": 1190,
+        "y": 870,
+        "wires": [
+            [
+                "dd4a8a1e4291d855",
+                "dd4a8a1e4291d855"
+            ]
+        ]
+    },
+    {
+        "id": "697267a917a5ede1",
+        "type": "link out",
+        "z": "df207830040c7255",
+        "g": "20a1fcbd1d2fea63",
+        "name": "Username",
+        "mode": "link",
+        "links": [
+            "645e4c286635a52f"
+        ],
+        "x": 1035,
+        "y": 820,
+        "wires": []
+    },
+    {
+        "id": "e3011972045e8564",
+        "type": "ui-button",
+        "z": "df207830040c7255",
+        "g": "20a1fcbd1d2fea63",
+        "group": "ee20fe791dedef03",
+        "name": "",
+        "label": "{{text}}",
+        "order": 3,
+        "width": 2,
+        "height": 1,
+        "emulateClick": false,
+        "buttonColor": "{{color}}",
+        "textColor": "",
+        "iconPosition": "left",
+        "icon": "",
+        "iconHeight": "30px",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "str",
+        "className": "",
+        "x": 940,
+        "y": 910,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "1053bfdaa6f39afb",
+        "type": "change",
+        "z": "df207830040c7255",
+        "g": "20a1fcbd1d2fea63",
+        "name": "Color",
+        "rules": [
+            {
+                "t": "set",
+                "p": "color",
+                "pt": "msg",
+                "to": "RED",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "text",
+                "pt": "msg",
+                "to": "WAIT !",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 710,
+        "y": 910,
+        "wires": [
+            [
+                "e3011972045e8564"
+            ]
+        ]
+    },
+    {
+        "id": "6a40e123a2c65178",
+        "type": "change",
+        "z": "df207830040c7255",
+        "g": "20a1fcbd1d2fea63",
+        "name": "Color",
+        "rules": [
+            {
+                "t": "set",
+                "p": "color",
+                "pt": "msg",
+                "to": "GREEN",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "text",
+                "pt": "msg",
+                "to": "Ready",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 710,
+        "y": 870,
+        "wires": [
+            [
+                "e3011972045e8564"
+            ]
+        ]
+    },
+    {
+        "id": "c6a0489a3ee00082",
+        "type": "link in",
+        "z": "df207830040c7255",
+        "g": "20a1fcbd1d2fea63",
+        "name": "Username OK",
+        "links": [
+            "b9d57c51dcfa392e"
+        ],
+        "x": 1035,
+        "y": 750,
+        "wires": [
+            [
+                "566b14e2f0568603"
+            ]
+        ]
+    },
+    {
+        "id": "beab0c19.6d93b",
+        "type": "inject",
+        "z": "df207830040c7255",
+        "g": "fbd6b9fb.b67658",
+        "name": "Settings",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payloadType": "date",
+        "x": 120,
+        "y": 110,
+        "wires": [
+            [
+                "966a372a.a07628"
+            ]
+        ]
+    },
+    {
+        "id": "966a372a.a07628",
+        "type": "change",
+        "z": "df207830040c7255",
+        "g": "fbd6b9fb.b67658",
+        "name": "API Settings ",
+        "rules": [
+            {
+                "t": "set",
+                "p": "ClientID",
+                "pt": "flow",
+                "to": "CLIENT ID",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "ClientSecret",
+                "pt": "flow",
+                "to": "CLIENT SECRET",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "Channel",
+                "pt": "flow",
+                "to": "ioodyme",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "ChannelID",
+                "pt": "flow",
+                "to": "CHANNEL ID",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "SubSecret",
+                "pt": "flow",
+                "to": "SUB SECRET",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "SubURI",
+                "pt": "flow",
+                "to": "SUB URI",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "Scopes",
+                "pt": "flow",
+                "to": "bits:read channel:manage:broadcast channel:manage:polls channel:manage:predictions channel:manage:redemptions channel:read:polls channel:read:predictions channel:read:redemptions channel:read:subscriptions moderation:read user:read:follows user:read:subscriptions channel:moderate channel:read:hype_train",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 310,
+        "y": 110,
+        "wires": [
+            [
+                "gen_oauth_state_fn"
+            ]
+        ]
+    },
+    {
+        "id": "a9ab8eef.baa2",
+        "type": "function",
+        "z": "df207830040c7255",
+        "g": "fbd6b9fb.b67658",
+        "name": "Request channel ID",
+        "func": "let channel = flow.get(\"Channel\");\nif (msg.topic == \"username\") {\n    channel = msg.payload;\n}\n\nmsg = {\n    \"headers\": {\n        \"Client-ID\": flow.get('ClientID'),\n        \"Authorization\": flow.get('AppToken')\n    },\n    \"url\": 'https://api.twitch.tv/helix/search/channels?query='  + channel + \"&first=1\"\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 330,
+        "y": 320,
+        "wires": [
+            [
+                "566f2428.09694c"
+            ]
+        ]
+    },
+    {
+        "id": "566f2428.09694c",
+        "type": "http request",
+        "z": "df207830040c7255",
+        "g": "fbd6b9fb.b67658",
+        "name": "Channel ID",
+        "method": "GET",
+        "ret": "obj",
+        "paytoqs": "ignore",
+        "url": "",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "authType": "",
+        "senderr": false,
+        "x": 530,
+        "y": 320,
+        "wires": [
+            [
+                "b8602e99.36c57",
+                "e6f5f8a94cc12207",
+                "527713e229815eae"
+            ]
+        ]
+    },
+    {
+        "id": "b8602e99.36c57",
+        "type": "change",
+        "z": "df207830040c7255",
+        "g": "fbd6b9fb.b67658",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "ChannelID",
+                "pt": "flow",
+                "to": "msg.payload.data[0].id",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 720,
+        "y": 280,
+        "wires": [
+            [
+                "b9d57c51dcfa392e"
+            ]
+        ]
+    },
+    {
+        "id": "fd63f4262302c5b3",
+        "type": "http in",
+        "z": "df207830040c7255",
+        "g": "fbd6b9fb.b67658",
+        "name": "",
+        "url": "/apptoken",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 130,
+        "y": 160,
+        "wires": [
+            [
+                "7ac706a80063eebd",
+                "eff64b41360d736d"
+            ]
+        ]
+    },
+    {
+        "id": "7ac706a80063eebd",
+        "type": "function",
+        "z": "df207830040c7255",
+        "g": "fbd6b9fb.b67658",
+        "name": "Request APP Token",
+        "func": "msg = {};\nmsg.url = \"https://id.twitch.tv/oauth2/token\";\nmsg.url += \"?client_id=\" + flow.get('ClientID');\nmsg.url += \"&client_secret=\" + flow.get('ClientSecret');\nmsg.url += \"&grant_type=client_credentials\";\nmsg.url += \"&scope=\" + flow.get('Scopes');\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 340,
+        "y": 160,
+        "wires": [
+            [
+                "c93450a865e58d44"
+            ]
+        ]
+    },
+    {
+        "id": "c93450a865e58d44",
+        "type": "http request",
+        "z": "df207830040c7255",
+        "g": "fbd6b9fb.b67658",
+        "name": "",
+        "method": "POST",
+        "ret": "obj",
+        "paytoqs": "ignore",
+        "url": "",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "authType": "",
+        "senderr": false,
+        "x": 530,
+        "y": 160,
+        "wires": [
+            [
+                "252b179b82c058d7"
+            ]
+        ]
+    },
+    {
+        "id": "252b179b82c058d7",
+        "type": "function",
+        "z": "df207830040c7255",
+        "g": "fbd6b9fb.b67658",
+        "name": "Save Bearer",
+        "func": "const Token = \"Bearer \" + msg.payload[\"access_token\"];\nflow.set('AppToken', Token);\nreturn;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 720,
+        "y": 160,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "293eff994c230d75",
+        "type": "http response",
+        "z": "df207830040c7255",
+        "g": "fbd6b9fb.b67658",
+        "name": "Response",
+        "statusCode": "",
+        "headers": {},
+        "x": 520,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "e0b907cdd8ccc1cf",
+        "type": "http in",
+        "z": "df207830040c7255",
+        "g": "fbd6b9fb.b67658",
+        "name": "",
+        "url": "/usertoken",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 130,
+        "y": 240,
+        "wires": [
+            [
+                "3b0aad40327d2546",
+                "ecd9237822214175"
+            ]
+        ]
+    },
+    {
+        "id": "3b0aad40327d2546",
+        "type": "function",
+        "z": "df207830040c7255",
+        "g": "fbd6b9fb.b67658",
+        "name": "Request USER Token",
+        "func": "const code = msg.req.query.code;\nconst receivedState = msg.req.query.state;\nconst expectedState = flow.get('OAuthState');\n\n// Validate CSRF state \u2014 reject if state is missing or does not match.\n// Note: for the /apptoken implicit flow, the state arrives in the URL fragment\n// (client-side only) and cannot be validated server-side via this handler.\nif (!expectedState || !receivedState || receivedState !== expectedState) {\n    node.warn('CSRF state mismatch on /usertoken (expected: ' + expectedState + ', received: ' + receivedState + ')');\n    msg.statusCode = 403;\n    msg.payload = 'CSRF validation failed';\n    return null;\n}\n\nmsg = {};\nmsg.url = \"https://id.twitch.tv/oauth2/token?\";\nmsg.url += \"client_id=\" + flow.get('ClientID');\nmsg.url += \"&client_secret=\" + flow.get('ClientSecret');\nmsg.url += \"&code=\" + code;\nmsg.url += \"&grant_type=authorization_code\";\nmsg.url += \"&redirect_uri=https://\" + flow.get('SubURI') + \"/usertoken\";\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 340,
+        "y": 240,
+        "wires": [
+            [
+                "1112a9e81345ea8b"
+            ]
+        ]
+    },
+    {
+        "id": "1112a9e81345ea8b",
+        "type": "http request",
+        "z": "df207830040c7255",
+        "g": "fbd6b9fb.b67658",
+        "name": "",
+        "method": "POST",
+        "ret": "obj",
+        "paytoqs": "ignore",
+        "url": "",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "authType": "",
+        "senderr": false,
+        "x": 530,
+        "y": 240,
+        "wires": [
+            [
+                "9a8612014ad4c799"
+            ]
+        ]
+    },
+    {
+        "id": "9a8612014ad4c799",
+        "type": "function",
+        "z": "df207830040c7255",
+        "g": "fbd6b9fb.b67658",
+        "name": "Save Bearer",
+        "func": "const Token = \"Bearer \" + msg.payload[\"access_token\"];\nflow.set('UserToken', Token);\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 700,
+        "y": 240,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "379327a91b22c7dd",
+        "type": "http response",
+        "z": "df207830040c7255",
+        "g": "fbd6b9fb.b67658",
+        "name": "Response",
+        "statusCode": "",
+        "headers": {},
+        "x": 520,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "e44ac409f8d18e83",
+        "type": "ui-template",
+        "z": "df207830040c7255",
+        "g": "fbd6b9fb.b67658",
+        "group": "174e8ee08b6a981f",
+        "name": "Authorize App",
+        "order": 2,
+        "width": 3,
+        "height": 1,
+        "format": "<template>\n    <div style=\"padding:4px;\">\n        <v-btn v-if=\"url\" :href=\"url\" target=\"_blank\" color=\"#9146FF\" class=\"text-white\" size=\"small\">\n            Authorize APP\n        </v-btn>\n        <span v-else style=\"color:#888;font-size:12px;\">Submit settings first</span>\n    </div>\n</template>\n<script>\n    export default {\n        data() { return { url: '' } },\n        watch: {\n            msg: function(val) { if (val && val.payload) this.url = val.payload }\n        }\n    }\n</script>",
+        "storeOutMessages": true,
+        "passthru": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "evtType": "change",
+        "className": "",
+        "x": 540,
+        "y": 110,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "8b2294e6bc52446d",
+        "type": "ui-template",
+        "z": "df207830040c7255",
+        "g": "fbd6b9fb.b67658",
+        "group": "174e8ee08b6a981f",
+        "name": "Authorize User",
+        "order": 3,
+        "width": 3,
+        "height": 1,
+        "format": "<template>\n    <div style=\"padding:4px;\">\n        <v-btn v-if=\"url\" :href=\"url\" target=\"_blank\" color=\"#9146FF\" class=\"text-white\" size=\"small\">\n            Authorize USER\n        </v-btn>\n        <span v-else style=\"color:#888;font-size:12px;\">Submit settings first</span>\n    </div>\n</template>\n<script>\n    export default {\n        data() { return { url: '' } },\n        watch: {\n            msg: function(val) { if (val && val.payload) this.url = val.payload }\n        }\n    }\n</script>",
+        "storeOutMessages": true,
+        "passthru": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "evtType": "change",
+        "className": "",
+        "x": 730,
+        "y": 110,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "3f7a96c6437a13b9",
+        "type": "function",
+        "z": "df207830040c7255",
+        "g": "fbd6b9fb.b67658",
+        "name": "Validate User Token",
+        "func": "msg = {\n    \"headers\" : {\n        \"Client-ID\": flow.get('ClientID'),\n        \"Authorization\": flow.get('UserToken'),\n        \"Accept\" : \"application/vnd.twitchtv.v5+json\"\n    },\n    \"url\": \"https://id.twitch.tv/oauth2/validate\"\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 340,
+        "y": 360,
+        "wires": [
+            [
+                "a0c81e642c7a3105"
+            ]
+        ]
+    },
+    {
+        "id": "a0c81e642c7a3105",
+        "type": "http request",
+        "z": "df207830040c7255",
+        "g": "fbd6b9fb.b67658",
+        "name": "Request",
+        "method": "GET",
+        "ret": "obj",
+        "paytoqs": "ignore",
+        "url": "",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "authType": "",
+        "x": 520,
+        "y": 360,
+        "wires": [
+            [
+                "2c4a0a29dd209504"
+            ]
+        ]
+    },
+    {
+        "id": "ad6618efadfffb7c",
+        "type": "template",
+        "z": "df207830040c7255",
+        "g": "fbd6b9fb.b67658",
+        "name": "Authorize App",
+        "field": "template",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "https://id.twitch.tv/oauth2/authorize?client_id={{flow.ClientID}}&redirect_uri=https://{{flow.SubURI}}/apptoken&response_type=token&scope={{flow.Scopes}}&state={{flow.OAuthState}}",
+        "output": "str",
+        "x": 540,
+        "y": 70,
+        "wires": [
+            [
+                "e44ac409f8d18e83"
+            ]
+        ]
+    },
+    {
+        "id": "d063ce8e1987378e",
+        "type": "template",
+        "z": "df207830040c7255",
+        "g": "fbd6b9fb.b67658",
+        "name": "Authorize User",
+        "field": "template",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "https://id.twitch.tv/oauth2/authorize?client_id={{flow.ClientID}}&redirect_uri=https://{{flow.SubURI}}/usertoken&response_type=code&scope={{flow.Scopes}}&state={{flow.OAuthState}}",
+        "output": "str",
+        "x": 730,
+        "y": 70,
+        "wires": [
+            [
+                "8b2294e6bc52446d"
+            ]
+        ]
+    },
+    {
+        "id": "2c88d43747076c97",
+        "type": "function",
+        "z": "df207830040c7255",
+        "g": "fbd6b9fb.b67658",
+        "name": "Validate App Token",
+        "func": "msg = {\n    \"headers\" : {\n        \"Client-ID\": flow.get('ClientID'),\n        \"Authorization\": flow.get('AppToken'),\n        \"Accept\" : \"application/vnd.twitchtv.v5+json\"\n    },\n    \"url\": \"https://id.twitch.tv/oauth2/validate\"\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 330,
+        "y": 400,
+        "wires": [
+            [
+                "e35fd443178b1637"
+            ]
+        ]
+    },
+    {
+        "id": "e35fd443178b1637",
+        "type": "http request",
+        "z": "df207830040c7255",
+        "g": "fbd6b9fb.b67658",
+        "name": "Request",
+        "method": "GET",
+        "ret": "obj",
+        "paytoqs": "ignore",
+        "url": "",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "authType": "",
+        "x": 520,
+        "y": 400,
+        "wires": [
+            [
+                "2b8377a30ae7e578"
+            ]
+        ]
+    },
+    {
+        "id": "d7b248978206a06f",
+        "type": "ui-text-input",
+        "z": "df207830040c7255",
+        "g": "fbd6b9fb.b67658",
+        "group": "9fcc1ffb8aba8b21",
+        "name": "",
+        "label": "Username",
+        "order": 1,
+        "width": 4,
+        "height": 1,
+        "topic": "username",
+        "topicType": "str",
+        "mode": "text",
+        "clearOnSend": false,
+        "sendOnBlur": true,
+        "acceptsInput": true,
+        "passthru": true,
+        "sendOnEnter": true,
+        "className": "",
+        "x": 130,
+        "y": 320,
+        "wires": [
+            [
+                "a9ab8eef.baa2"
+            ]
+        ]
+    },
+    {
+        "id": "b1096a477fb9abe5",
+        "type": "ui-text",
+        "z": "df207830040c7255",
+        "g": "fbd6b9fb.b67658",
+        "group": "9fcc1ffb8aba8b21",
+        "name": "",
+        "label": "ID :",
+        "order": 3,
+        "width": 4,
+        "height": 1,
+        "format": "{{msg.payload}}",
+        "layout": "row-left",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#717171",
+        "className": "",
+        "x": 820,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "055dadece0fd3af6",
+        "type": "ui-button",
+        "z": "df207830040c7255",
+        "g": "fbd6b9fb.b67658",
+        "group": "174e8ee08b6a981f",
+        "name": "",
+        "label": "Test token",
+        "order": 6,
+        "width": 0,
+        "height": 0,
+        "emulateClick": false,
+        "buttonColor": "",
+        "textColor": "",
+        "iconPosition": "left",
+        "icon": "",
+        "iconHeight": "30px",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "className": "",
+        "x": 130,
+        "y": 380,
+        "wires": [
+            [
+                "3f7a96c6437a13b9",
+                "2c88d43747076c97"
+            ]
+        ]
+    },
+    {
+        "id": "aea1f7b492402c01",
+        "type": "ui-button",
+        "z": "df207830040c7255",
+        "g": "fbd6b9fb.b67658",
+        "group": "174e8ee08b6a981f",
+        "name": "User",
+        "label": "",
+        "order": 5,
+        "width": 3,
+        "height": 1,
+        "emulateClick": false,
+        "buttonColor": "{{payload}}",
+        "textColor": "",
+        "iconPosition": "left",
+        "icon": "",
+        "iconHeight": "30px",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "className": "",
+        "x": 680,
+        "y": 410,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "4d6e5b640e32530c",
+        "type": "ui-button",
+        "z": "df207830040c7255",
+        "g": "fbd6b9fb.b67658",
+        "group": "174e8ee08b6a981f",
+        "name": "App",
+        "label": "",
+        "order": 4,
+        "width": 3,
+        "height": 1,
+        "emulateClick": false,
+        "buttonColor": "{{payload}}",
+        "textColor": "",
+        "iconPosition": "left",
+        "icon": "",
+        "iconHeight": "30px",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "className": "",
+        "x": 680,
+        "y": 450,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "2b8377a30ae7e578",
+        "type": "function",
+        "z": "df207830040c7255",
+        "g": "fbd6b9fb.b67658",
+        "name": "Test App",
+        "func": "if (msg.statusCode == 401) {\n    return {payload : \"RED\"};\n}\nelse if(msg.statusCode == 200){\n    return { payload: \"GREEN\" }\n}\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 300,
+        "y": 450,
+        "wires": [
+            [
+                "4d6e5b640e32530c"
+            ]
+        ]
+    },
+    {
+        "id": "2c4a0a29dd209504",
+        "type": "function",
+        "z": "df207830040c7255",
+        "g": "fbd6b9fb.b67658",
+        "name": "Test User",
+        "func": "if (msg.statusCode == 401) {\n    return {payload : \"RED\"};\n}\nelse if(msg.statusCode == 200){\n    return { payload: \"GREEN\" }\n}\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 520,
+        "y": 450,
+        "wires": [
+            [
+                "aea1f7b492402c01"
+            ]
+        ]
+    },
+    {
+        "id": "18a0ecdb51dce96a",
+        "type": "ui-form",
+        "z": "df207830040c7255",
+        "g": "fbd6b9fb.b67658",
+        "group": "174e8ee08b6a981f",
+        "name": "",
+        "label": "Settings",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "options": [
+            {
+                "label": "Client ID",
+                "key": "ClientID",
+                "type": "text",
+                "required": false,
+                "rows": null
+            },
+            {
+                "label": "Client Secret",
+                "key": "ClientSecret",
+                "type": "text",
+                "required": false,
+                "rows": null
+            },
+            {
+                "label": "Sub Secret",
+                "key": "SubSecret",
+                "type": "text",
+                "required": false,
+                "rows": null
+            },
+            {
+                "label": "Channel",
+                "key": "Channel",
+                "type": "text",
+                "required": false,
+                "rows": null
+            },
+            {
+                "label": "Sub URI",
+                "key": "SubURI",
+                "type": "text",
+                "required": false,
+                "rows": null
+            },
+            {
+                "label": "Scopes",
+                "key": "Scopes",
+                "type": "text",
+                "required": false,
+                "rows": null
+            }
+        ],
+        "formValue": {
+            "ClientID": "",
+            "ClientSecret": "",
+            "SubSecret": "",
+            "Channel": "",
+            "SubURI": "",
+            "Scopes": ""
+        },
+        "submit": "submit",
+        "cancel": "cancel",
+        "topicType": "msg",
+        "splitLayout": true,
+        "resetOnSubmit": false,
+        "className": "",
+        "x": 130,
+        "y": 70,
+        "wires": [
+            [
+                "a70f82e316ae9b20"
+            ]
+        ]
+    },
+    {
+        "id": "a70f82e316ae9b20",
+        "type": "function",
+        "z": "df207830040c7255",
+        "g": "fbd6b9fb.b67658",
+        "name": "Save settings",
+        "func": "for (var key in msg.payload) {\n    if (msg.payload[key] != \"\") {\n        flow.set(key, msg.payload[key]);\n    }\n}\nreturn { payload: \"OK\" };",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 310,
+        "y": 70,
+        "wires": [
+            [
+                "gen_oauth_state_fn"
+            ]
+        ]
+    },
+    {
+        "id": "eff64b41360d736d",
+        "type": "template",
+        "z": "df207830040c7255",
+        "g": "fbd6b9fb.b67658",
+        "name": "Reponse",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<html>\n    <head>\n        <meta http-equiv=\"refresh\" content=\"2; URL=https://{{flow.SubURI}}/dashboard\" />\n    </head>\n\n    <body>\n        <h1> App Token generated</h1>\n        <p>If you are not redirected after 2 sec, <a href=\"https://{{flow.SubURI}}/dashboard\">click here</a>.</p>\n    </body>\n\n</html>",
+        "output": "str",
+        "x": 300,
+        "y": 200,
+        "wires": [
+            [
+                "293eff994c230d75"
+            ]
+        ]
+    },
+    {
+        "id": "ecd9237822214175",
+        "type": "template",
+        "z": "df207830040c7255",
+        "g": "fbd6b9fb.b67658",
+        "name": "Response",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<html>\n    <head>\n        <meta http-equiv=\"refresh\" content=\"2; URL=https://{{flow.SubURI}}/dashboard\" />\n    </head>\n\n    <body>\n        <h1> User Token generated</h1>\n        <p>If you are not redirected after 2 sec, <a href=\"https://{{flow.SubURI}}/dashboard\">click here</a>.</p>\n    </body>\n\n</html>",
+        "output": "str",
+        "x": 300,
+        "y": 280,
+        "wires": [
+            [
+                "379327a91b22c7dd"
+            ]
+        ]
+    },
+    {
+        "id": "e6f5f8a94cc12207",
+        "type": "change",
+        "z": "df207830040c7255",
+        "g": "fbd6b9fb.b67658",
+        "name": "Get ID",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.data[0].id",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 680,
+        "y": 320,
+        "wires": [
+            [
+                "b1096a477fb9abe5"
+            ]
+        ]
+    },
+    {
+        "id": "4c3ce8432cc7554a",
+        "type": "ui-template",
+        "z": "df207830040c7255",
+        "g": "fbd6b9fb.b67658",
+        "group": "9fcc1ffb8aba8b21",
+        "name": "IMG",
+        "order": 2,
+        "width": 2,
+        "height": 2,
+        "format": "<template>\n    <div v-if=\"msg.payload\" style=\"text-align:center;padding:4px;\">\n        <img :src=\"msg.payload\" style=\"width:80%;border-radius:50%;\" />\n    </div>\n</template>",
+        "storeOutMessages": true,
+        "passthru": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "evtType": "change",
+        "className": "",
+        "x": 820,
+        "y": 360,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "527713e229815eae",
+        "type": "change",
+        "z": "df207830040c7255",
+        "g": "fbd6b9fb.b67658",
+        "name": "Get IMG",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.data[0].thumbnail_url",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 690,
+        "y": 360,
+        "wires": [
+            [
+                "4c3ce8432cc7554a"
+            ]
+        ]
+    },
+    {
+        "id": "645e4c286635a52f",
+        "type": "link in",
+        "z": "df207830040c7255",
+        "g": "fbd6b9fb.b67658",
+        "name": "Username",
+        "links": [
+            "697267a917a5ede1"
+        ],
+        "x": 75,
+        "y": 280,
+        "wires": [
+            [
+                "d7b248978206a06f"
+            ]
+        ]
+    },
+    {
+        "id": "b9d57c51dcfa392e",
+        "type": "link out",
+        "z": "df207830040c7255",
+        "g": "fbd6b9fb.b67658",
+        "name": "Username OK",
+        "mode": "link",
+        "links": [
+            "c6a0489a3ee00082"
+        ],
+        "x": 855,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "172852334e067eab",
+        "type": "http in",
+        "z": "df207830040c7255",
+        "g": "da23423c6c5ba9f9",
+        "name": "WebHook",
+        "url": "/webhook",
+        "method": "post",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 110,
+        "y": 1050,
+        "wires": [
+            [
+                "189539cfa8fd4634"
+            ]
+        ]
+    },
+    {
+        "id": "a14899d1bdaee6ae",
+        "type": "switch",
+        "z": "df207830040c7255",
+        "g": "da23423c6c5ba9f9",
+        "name": "Type ?",
+        "property": "req.headers[\"twitch-eventsub-message-type\"]",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "webhook_callback_verification",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "notification",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "revocation",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 3,
+        "x": 590,
+        "y": 1090,
+        "wires": [
+            [
+                "b99ebb122e5c2d93"
+            ],
+            [
+                "e9b516c0427c7331"
+            ],
+            [
+                "9bae08932a4b918f"
+            ]
+        ]
+    },
+    {
+        "id": "e9b516c0427c7331",
+        "type": "function",
+        "z": "df207830040c7255",
+        "g": "da23423c6c5ba9f9",
+        "name": "Notification",
+        "func": "msg.statusCode = 200;\nreturn msg",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 760,
+        "y": 1080,
+        "wires": [
+            [
+                "09b3f14a7ec50bce",
+                "e2b1a1d555abedaa"
+            ]
+        ]
+    },
+    {
+        "id": "9bae08932a4b918f",
+        "type": "link out",
+        "z": "df207830040c7255",
+        "g": "da23423c6c5ba9f9",
+        "name": "WebHook revocation",
+        "mode": "link",
+        "links": [],
+        "x": 705,
+        "y": 1120,
+        "wires": []
+    },
+    {
+        "id": "b99ebb122e5c2d93",
+        "type": "function",
+        "z": "df207830040c7255",
+        "g": "da23423c6c5ba9f9",
+        "name": "Subscription",
+        "func": "msg.payload = msg.payload.challenge.toString();\nmsg.statusCode = 200;\nreturn msg",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 760,
+        "y": 1040,
+        "wires": [
+            [
+                "e2b1a1d555abedaa"
+            ]
+        ]
+    },
+    {
+        "id": "e2b1a1d555abedaa",
+        "type": "http response",
+        "z": "df207830040c7255",
+        "g": "da23423c6c5ba9f9",
+        "name": "Response",
+        "statusCode": "",
+        "headers": {},
+        "x": 910,
+        "y": 1040,
+        "wires": []
+    },
+    {
+        "id": "496beddfeba0baee",
+        "type": "link out",
+        "z": "df207830040c7255",
+        "g": "da23423c6c5ba9f9",
+        "name": "WebHook Notification",
+        "mode": "link",
+        "links": [
+            "03f134a19d11f009"
+        ],
+        "x": 1260,
+        "y": 1080,
+        "wires": [],
+        "l": true
+    },
+    {
+        "id": "09b3f14a7ec50bce",
+        "type": "function",
+        "z": "df207830040c7255",
+        "g": "da23423c6c5ba9f9",
+        "name": "ID Filter",
+        "func": "const MAX_AGE_MS = 10 * 60 * 1000; // 10 minutes (EventSub replay window)\nconst now = Date.now();\n\n// Get or initialize the ID map: { messageId -> receivedTimestamp }\nlet idMap = flow.get('EventIDMap') || {};\n\n// Purge expired entries to prevent unbounded growth\nfor (const id of Object.keys(idMap)) {\n    if (now - idMap[id] > MAX_AGE_MS) {\n        delete idMap[id];\n    }\n}\n\nconst ID = msg.req.headers['twitch-eventsub-message-id'];\nif (!ID) {\n    // No message ID, pass through\n    return msg;\n}\n\nif (idMap.hasOwnProperty(ID)) {\n    // Duplicate message \u2014 drop it silently\n    return null;\n}\n\n// Record the ID with current timestamp\nidMap[ID] = now;\nflow.set('EventIDMap', idMap);\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 910,
+        "y": 1080,
+        "wires": [
+            [
+                "94f06a5db5091ecc",
+                "f4803e78add4ee2f"
+            ]
+        ]
+    },
+    {
+        "id": "189539cfa8fd4634",
+        "type": "function",
+        "z": "df207830040c7255",
+        "g": "da23423c6c5ba9f9",
+        "name": "Verify Signature",
+        "func": "const crypto = require('crypto');\n\nconst ID = msg.req.headers['twitch-eventsub-message-id'];\nconst TS = msg.req.headers['twitch-eventsub-message-timestamp'];\nconst Body = JSON.stringify(msg.req.body);\nconst SubSecret = flow.get('SubSecret');\n\nif (!SubSecret) {\n    node.warn('SubSecret not configured');\n    msg.statusCode = 403;\n    msg.payload = 'Configuration error: SubSecret not set';\n    return [null, msg];\n}\n\n// Reject messages with timestamp older than 10 minutes (anti-replay)\nconst MAX_AGE_MS = 10 * 60 * 1000;\nconst msgTime = new Date(TS).getTime();\nif (!TS || isNaN(msgTime) || (Date.now() - msgTime) > MAX_AGE_MS) {\n    msg.statusCode = 403;\n    msg.payload = 'Timestamp missing or too old';\n    return [null, msg];\n}\n\nconst message = ID + TS + Body;\nconst hmac = crypto.createHmac('sha256', SubSecret);\nhmac.update(message);\nconst expectedSig = 'sha256=' + hmac.digest('hex');\nconst actualSig = msg.req.headers['twitch-eventsub-message-signature'] || '';\n\n// Timing-safe comparison to prevent timing attacks\nlet valid = false;\ntry {\n    const expectedBuf = Buffer.from(expectedSig, 'utf8');\n    const actualBuf = Buffer.from(actualSig, 'utf8');\n    if (expectedBuf.length === actualBuf.length) {\n        valid = crypto.timingSafeEqual(expectedBuf, actualBuf);\n    }\n} catch (e) {\n    valid = false;\n}\n\nif (valid) {\n    return [msg, null];\n}\n\nmsg.statusCode = 403;\nmsg.payload = 'Invalid signature';\nreturn [null, msg];\n",
+        "outputs": 2,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 310,
+        "y": 1050,
+        "wires": [
+            [
+                "a14899d1bdaee6ae"
+            ],
+            [
+                "sig_err_response"
+            ]
+        ]
+    },
+    {
+        "id": "sig_err_response",
+        "type": "http response",
+        "z": "df207830040c7255",
+        "g": "da23423c6c5ba9f9",
+        "name": "Reject 403",
+        "statusCode": "403",
+        "headers": {},
+        "x": 760,
+        "y": 1130,
+        "wires": []
+    },
+    {
+        "id": "94f06a5db5091ecc",
+        "type": "switch",
+        "z": "df207830040c7255",
+        "g": "da23423c6c5ba9f9",
+        "name": "Channel ID",
+        "property": "payload.event.broadcaster_user_id",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "ChannelID",
+                "vt": "flow"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "false",
+        "repair": false,
+        "outputs": 2,
+        "x": 1060,
+        "y": 1080,
+        "wires": [
+            [
+                "496beddfeba0baee"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "f4803e78add4ee2f",
+        "type": "switch",
+        "z": "df207830040c7255",
+        "g": "da23423c6c5ba9f9",
+        "name": "To Channel ID",
+        "property": "payload.event.to_broadcaster_user_id",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "ChannelID",
+                "vt": "flow"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "false",
+        "repair": false,
+        "outputs": 2,
+        "x": 1070,
+        "y": 1120,
+        "wires": [
+            [
+                "496beddfeba0baee"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "4b779b18cfa18def",
+        "type": "function",
+        "z": "bedf5b9469855c83",
+        "g": "1d9e4b26a824022f",
+        "name": "Fake Sub",
+        "func": "msg.payload = {\n    \"subscription\": {\n        \"id\": \"f1c2a387-161a-49f9-a165-0f21d7a4e1c4\",\n        \"type\": \"channel.subscribe\",\n        \"version\": \"1\",\n        \"status\": \"enabled\",\n        \"cost\": 0,\n        \"condition\": {\n            \"broadcaster_user_id\": \"564492369\"\n        },\n         \"transport\": {\n            \"method\": \"webhook\",\n            \"callback\": \"https://example.com/webhooks/callback\"\n        },\n        \"created_at\": \"2019-11-16T10:11:12.123Z\"\n    },\n    \"event\": {\n        \"user_id\": \"558919467\",\n        \"user_login\": \"ioodyme\",\n        \"user_name\": \"ioodyme\",\n        \"broadcaster_user_id\": \"564492369\",\n        \"broadcaster_user_login\": \"ioodyme\",\n        \"broadcaster_user_name\": \"ioodyme\",\n        \"tier\": \"1000\",\n        \"is_gift\": false\n    }\n}\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 290,
+        "y": 180,
+        "wires": [
+            [
+                "c46892d6233c5391"
+            ]
+        ]
+    },
+    {
+        "id": "fee40a11987375da",
+        "type": "function",
+        "z": "bedf5b9469855c83",
+        "g": "1d9e4b26a824022f",
+        "name": "Fake Follow",
+        "func": "msg.payload = {\n    \"subscription\": {\n        \"id\": \"f1c2a387-161a-49f9-a165-0f21d7a4e1c4\",\n        \"type\": \"channel.follow\",\n        \"version\": \"1\",\n        \"status\": \"enabled\",\n        \"cost\": 0,\n        \"condition\": {\n            \"broadcaster_user_id\": \"564492369\"\n        },\n         \"transport\": {\n            \"method\": \"webhook\",\n            \"callback\": \"https://example.com/webhooks/callback\"\n        },\n        \"created_at\": \"2019-11-16T10:11:12.123Z\"\n    },\n    \"event\": {\n        \"user_id\": \"558919467\",\n        \"user_login\": \"ioodyme\",\n        \"user_name\": \"ioodyme\",\n        \"broadcaster_user_id\": \"564492369\",\n        \"broadcaster_user_login\": \"ioodyme\",\n        \"broadcaster_user_name\": \"ioodyme\",\n        \"followed_at\": \"2020-07-15T18:16:11.17106713Z\"\n    }\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 300,
+        "y": 140,
+        "wires": [
+            [
+                "c46892d6233c5391"
+            ]
+        ]
+    },
+    {
+        "id": "c46892d6233c5391",
+        "type": "switch",
+        "z": "bedf5b9469855c83",
+        "g": "1d9e4b26a824022f",
+        "name": "",
+        "property": "payload.subscription.type",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "channel.update",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "channel.follow",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "channel.subscribe",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "channel.subscription.gift",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "channel.subscription.message",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "channel.cheer",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "channel.raid",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "channel.ban",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "channel.unban",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "channel.channel_points_custom_reward_redemption.add",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "channel.poll.begin",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "channel.poll.progress",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "channel.poll.end",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "channel.prediction.begin",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "channel.prediction.progress",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "channel.prediction.end",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "channel.hype_train.begin",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "channel.hype_train.progress",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "channel.hype_train.end",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "stream.online",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "stream.offline",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 21,
+        "x": 520,
+        "y": 460,
+        "wires": [
+            [
+                "d1c64ebc8a5feec9"
+            ],
+            [
+                "099c35a256887f74"
+            ],
+            [
+                "35d2b6f068729230"
+            ],
+            [
+                "66db194703a62045"
+            ],
+            [
+                "7008cac6ebd21511"
+            ],
+            [
+                "e1ed82cfe4ac1c7b"
+            ],
+            [
+                "8e64834c2e4ab9c6"
+            ],
+            [
+                "3e4196fcfe60dd91"
+            ],
+            [
+                "ec063c27cbdff5bc"
+            ],
+            [
+                "b97c23ba88296b1b"
+            ],
+            [
+                "f71de6f3f45ab546"
+            ],
+            [
+                "52f26835eeca107c"
+            ],
+            [
+                "90d9f9f778dfea84"
+            ],
+            [
+                "956b7e15e56e3e6e"
+            ],
+            [
+                "03c5d3303b39046e"
+            ],
+            [
+                "8b358c8a79eba44f"
+            ],
+            [
+                "aa03c725061760dd"
+            ],
+            [
+                "a3ee39814135cad2"
+            ],
+            [
+                "74a51ad373778ee6"
+            ],
+            [
+                "104b71d90f13b9fa"
+            ],
+            [
+                "07c0971dd23dd62d"
+            ]
+        ]
+    },
+    {
+        "id": "03f134a19d11f009",
+        "type": "link in",
+        "z": "bedf5b9469855c83",
+        "g": "1d9e4b26a824022f",
+        "name": "Webhook Response",
+        "links": [
+            "496beddfeba0baee"
+        ],
+        "x": 245,
+        "y": 60,
+        "wires": [
+            [
+                "c46892d6233c5391",
+                "8a0b93500015be22"
+            ]
+        ]
+    },
+    {
+        "id": "0e717f858b8d799c",
+        "type": "function",
+        "z": "bedf5b9469855c83",
+        "g": "1d9e4b26a824022f",
+        "name": "Fake Update",
+        "func": "msg.payload = {\n    \"subscription\": {\n        \"id\": \"f1c2a387-161a-49f9-a165-0f21d7a4e1c4\",\n        \"type\": \"channel.update\",\n        \"version\": \"1\",\n        \"status\": \"enabled\",\n        \"cost\": 0,\n        \"condition\": {\n            \"broadcaster_user_id\": \"564492369\"\n        },\n         \"transport\": {\n            \"method\": \"webhook\",\n            \"callback\": \"https://example.com/webhooks/callback\"\n        },\n        \"created_at\": \"2019-11-16T10:11:12.123Z\"\n    },\n    \"event\": {\n        \"broadcaster_user_id\": \"564492369\",\n        \"broadcaster_user_login\": \"ioodyme\",\n        \"broadcaster_user_name\": \"ioodyme\",\n        \"title\": \"Eventsub Demo\",\n        \"language\": \"fr\",\n        \"category_id\": \"99999\",\n        \"category_name\": \"Node-RED\",\n        \"is_mature\": false\n    }\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 300,
+        "y": 100,
+        "wires": [
+            [
+                "c46892d6233c5391"
+            ]
+        ]
+    },
+    {
+        "id": "bd60cc12bad786d6",
+        "type": "inject",
+        "z": "bedf5b9469855c83",
+        "g": "1d9e4b26a824022f",
+        "name": "Inject",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payloadType": "date",
+        "x": 130,
+        "y": 100,
+        "wires": [
+            [
+                "0e717f858b8d799c"
+            ]
+        ]
+    },
+    {
+        "id": "d1c64ebc8a5feec9",
+        "type": "link out",
+        "z": "bedf5b9469855c83",
+        "g": "1d9e4b26a824022f",
+        "name": "Channel Update OUT",
+        "links": [
+            "3c5392d536a6758c"
+        ],
+        "x": 685,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "099c35a256887f74",
+        "type": "link out",
+        "z": "bedf5b9469855c83",
+        "g": "1d9e4b26a824022f",
+        "name": "Follower OUT",
+        "links": [
+            "e3fdefc8024d75a1",
+            "bfade4f4c4470fca"
+        ],
+        "x": 685,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "35d2b6f068729230",
+        "type": "link out",
+        "z": "bedf5b9469855c83",
+        "g": "1d9e4b26a824022f",
+        "name": "Subscriber OUT",
+        "links": [
+            "46a3a69959ede421",
+            "f29e0798f7657a80",
+            "56eb628ad3cecd79",
+            "e48379b1b04cd476",
+            "31c0814baa995486"
+        ],
+        "x": 685,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "9f4b9459d55f954b",
+        "type": "inject",
+        "z": "bedf5b9469855c83",
+        "g": "1d9e4b26a824022f",
+        "name": "Inject",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payloadType": "date",
+        "x": 130,
+        "y": 140,
+        "wires": [
+            [
+                "fee40a11987375da"
+            ]
+        ]
+    },
+    {
+        "id": "d6b5f07cf744a7b2",
+        "type": "inject",
+        "z": "bedf5b9469855c83",
+        "g": "1d9e4b26a824022f",
+        "name": "Inject",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payloadType": "date",
+        "x": 130,
+        "y": 180,
+        "wires": [
+            [
+                "4b779b18cfa18def"
+            ]
+        ]
+    },
+    {
+        "id": "66db194703a62045",
+        "type": "link out",
+        "z": "bedf5b9469855c83",
+        "g": "1d9e4b26a824022f",
+        "name": " SubGift OUT",
+        "links": [
+            "bc942504e9d6822a"
+        ],
+        "x": 685,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "789b0a1d5d87ac36",
+        "type": "inject",
+        "z": "bedf5b9469855c83",
+        "g": "1d9e4b26a824022f",
+        "name": "Inject",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payloadType": "date",
+        "x": 130,
+        "y": 220,
+        "wires": [
+            [
+                "74325974cbdc5c90"
+            ]
+        ]
+    },
+    {
+        "id": "74325974cbdc5c90",
+        "type": "function",
+        "z": "bedf5b9469855c83",
+        "g": "1d9e4b26a824022f",
+        "name": "Fake SubGift",
+        "func": "msg.payload ={\n    \"subscription\": {\n        \"id\": \"f1c2a387-161a-49f9-a165-0f21d7a4e1c4\",\n        \"type\": \"channel.subscription.gift\",\n        \"version\": \"1\",\n        \"status\": \"enabled\",\n        \"cost\": 0,\n        \"condition\": {\n            \"broadcaster_user_id\": \"564492369\"\n        },\n         \"transport\": {\n            \"method\": \"webhook\",\n            \"callback\": \"https://example.com/webhooks/callback\"\n        },\n        \"created_at\": \"2019-11-16T10:11:12.123Z\"\n    },\n    \"event\": {\n        \"user_id\": \"558919467\",\n        \"user_login\": \"ioodyme\",\n        \"user_name\": \"ioodyme\",\n        \"broadcaster_user_id\": \"564492369\",\n        \"broadcaster_user_login\": \"ioodyme\",\n        \"broadcaster_user_name\": \"ioodyme\",\n        \"total\": 2,\n        \"tier\": \"1000\",\n        \"cumulative_total\": 284, //null if anonymous or not shared by the user\n        \"is_anonymous\": false\n    }\n}\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 300,
+        "y": 220,
+        "wires": [
+            [
+                "c46892d6233c5391"
+            ]
+        ]
+    },
+    {
+        "id": "353f3049743bafc3",
+        "type": "inject",
+        "z": "bedf5b9469855c83",
+        "g": "1d9e4b26a824022f",
+        "name": "Inject",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payloadType": "date",
+        "x": 130,
+        "y": 300,
+        "wires": [
+            [
+                "85deb0b591c10ce6"
+            ]
+        ]
+    },
+    {
+        "id": "85deb0b591c10ce6",
+        "type": "function",
+        "z": "bedf5b9469855c83",
+        "g": "1d9e4b26a824022f",
+        "name": "Fake Bits",
+        "func": "msg.payload ={\n    \"subscription\": {\n        \"id\": \"f1c2a387-161a-49f9-a165-0f21d7a4e1c4\",\n        \"type\": \"channel.cheer\",\n        \"version\": \"1\",\n        \"status\": \"enabled\",\n        \"cost\": 0,\n        \"condition\": {\n            \"broadcaster_user_id\": \"564492369\"\n        },\n         \"transport\": {\n            \"method\": \"webhook\",\n            \"callback\": \"https://example.com/webhooks/callback\"\n        },\n        \"created_at\": \"2019-11-16T10:11:12.123Z\"\n    },\n    \"event\": {\n        \"is_anonymous\": false,\n        \"user_id\": \"1234\",          // null if is_anonymous=true\n        \"user_login\": \"ioodyme\",  // null if is_anonymous=true\n        \"user_name\": \"ioodyme\",   // null if is_anonymous=true\n        \"broadcaster_user_id\": \"564492369\",\n        \"broadcaster_user_login\": \"ioodyme\",\n        \"broadcaster_user_name\": \"ioodyme\",\n        \"message\": \"pogchamp\",\n        \"bits\": 1000\n    }\n}\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 290,
+        "y": 300,
+        "wires": [
+            [
+                "c46892d6233c5391"
+            ]
+        ]
+    },
+    {
+        "id": "e1ed82cfe4ac1c7b",
+        "type": "link out",
+        "z": "bedf5b9469855c83",
+        "g": "1d9e4b26a824022f",
+        "name": " Bits OUT",
+        "links": [
+            "674ee05d36a01381",
+            "58ca90d863d4dc52",
+            "f5cefdde5937b428"
+        ],
+        "x": 685,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "dd04e54715766887",
+        "type": "inject",
+        "z": "bedf5b9469855c83",
+        "g": "1d9e4b26a824022f",
+        "name": "Inject",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payloadType": "date",
+        "x": 130,
+        "y": 260,
+        "wires": [
+            [
+                "a69ac429f7a89027"
+            ]
+        ]
+    },
+    {
+        "id": "a69ac429f7a89027",
+        "type": "function",
+        "z": "bedf5b9469855c83",
+        "g": "1d9e4b26a824022f",
+        "name": "Fake Sub Message",
+        "func": "msg.payload ={\n    \"subscription\": {\n        \"id\": \"f1c2a387-161a-49f9-a165-0f21d7a4e1c4\",\n        \"type\": \"channel.subscription.message\",\n        \"version\": \"1\",\n        \"status\": \"enabled\",\n        \"cost\": 0,\n        \"condition\": {\n            \"broadcaster_user_id\": \"564492369\"\n        },\n         \"transport\": {\n            \"method\": \"webhook\",\n            \"callback\": \"https://example.com/webhooks/callback\"\n        },\n        \"created_at\": \"2019-11-16T10:11:12.123Z\"\n    },\n    \"event\": {\n        \"user_id\": \"558919467\",\n        \"user_login\": \"ioodyme\",\n        \"user_name\": \"ioodyme\",\n        \"broadcaster_user_id\": \"564492369\",\n        \"broadcaster_user_login\": \"ioodyme\",\n        \"broadcaster_user_name\": \"ioodyme\",\n        \"tier\": \"1000\",\n        \"message\": {\n            \"text\": \"Love the stream! FevziGG\",\n            \"emotes\": [\n                {\n                    \"begin\": 23,\n                    \"end\": 30,\n                    \"id\": \"302976485\"\n                }\n            ]\n        },\n        \"cumulative_months\": 15,\n        \"streak_months\": 1, // null if not shared\n        \"duration_months\": 6\n    }\n}\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 320,
+        "y": 260,
+        "wires": [
+            [
+                "c46892d6233c5391"
+            ]
+        ]
+    },
+    {
+        "id": "7008cac6ebd21511",
+        "type": "link out",
+        "z": "bedf5b9469855c83",
+        "g": "1d9e4b26a824022f",
+        "name": "SubMessage OUT",
+        "links": [
+            "f436b7331bd9609b"
+        ],
+        "x": 685,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "4f3290f9114221db",
+        "type": "inject",
+        "z": "bedf5b9469855c83",
+        "g": "1d9e4b26a824022f",
+        "name": "Inject",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payloadType": "date",
+        "x": 130,
+        "y": 340,
+        "wires": [
+            [
+                "442489b5937e9783"
+            ]
+        ]
+    },
+    {
+        "id": "442489b5937e9783",
+        "type": "function",
+        "z": "bedf5b9469855c83",
+        "g": "1d9e4b26a824022f",
+        "name": "Fake Raid",
+        "func": "msg.payload ={\n    \"subscription\": {\n        \"id\": \"f1c2a387-161a-49f9-a165-0f21d7a4e1c4\",\n        \"type\": \"channel.raid\",\n        \"version\": \"1\",\n        \"status\": \"enabled\",\n        \"cost\": 0,\n        \"condition\": {\n            \"to_broadcaster_user_id\": \"564492369\"\n        },\n         \"transport\": {\n            \"method\": \"webhook\",\n            \"callback\": \"https://example.com/webhooks/callback\"\n        },\n        \"created_at\": \"2019-11-16T10:11:12.123Z\"\n    },\n    \"event\": {\n        \"from_broadcaster_user_id\": \"1234\",\n        \"from_broadcaster_user_login\": \"ioodyme\",\n        \"from_broadcaster_user_name\": \"ioodyme\",\n        \"to_broadcaster_user_id\": \"564492369\",\n        \"to_broadcaster_user_login\": \"ioodyme\",\n        \"to_broadcaster_user_name\": \"ioodyme\",\n        \"viewers\": 9001\n    }\n}\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 300,
+        "y": 340,
+        "wires": [
+            [
+                "c46892d6233c5391"
+            ]
+        ]
+    },
+    {
+        "id": "8e64834c2e4ab9c6",
+        "type": "link out",
+        "z": "bedf5b9469855c83",
+        "g": "1d9e4b26a824022f",
+        "name": " Raid OUT",
+        "links": [
+            "6c6457495d5b73d4",
+            "550ccd4012fa1fbf"
+        ],
+        "x": 685,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "14246c59203bf325",
+        "type": "inject",
+        "z": "bedf5b9469855c83",
+        "g": "1d9e4b26a824022f",
+        "name": "Inject",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payloadType": "date",
+        "x": 130,
+        "y": 420,
+        "wires": [
+            [
+                "f76ce5c449b39ec1"
+            ]
+        ]
+    },
+    {
+        "id": "f76ce5c449b39ec1",
+        "type": "function",
+        "z": "bedf5b9469855c83",
+        "g": "1d9e4b26a824022f",
+        "name": "Fake Unban",
+        "func": "msg.payload ={\n    \"subscription\": {\n        \"id\": \"f1c2a387-161a-49f9-a165-0f21d7a4e1c4\",\n        \"type\": \"channel.unban\",\n        \"version\": \"1\",\n        \"status\": \"enabled\",\n        \"cost\": 0,\n        \"condition\": {\n            \"broadcaster_user_id\": \"564492369\"\n        },\n         \"transport\": {\n            \"method\": \"webhook\",\n            \"callback\": \"https://example.com/webhooks/callback\"\n        },\n        \"created_at\": \"2019-11-16T10:11:12.123Z\"\n    },\n    \"event\": {\n        \"user_id\": \"1234\",\n        \"user_login\": \"cool_user\",\n        \"user_name\": \"Cool_User\",\n        \"broadcaster_user_id\": \"564492369\",\n        \"broadcaster_user_login\": \"ioodyme\",\n        \"broadcaster_user_name\": \"ioodyme\",\n         \"moderator_user_id\": \"1339\",\n        \"moderator_user_login\": \"mod_user\",\n        \"moderator_user_name\": \"Mod_User\"\n    }\n}\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 300,
+        "y": 420,
+        "wires": [
+            [
+                "c46892d6233c5391"
+            ]
+        ]
+    },
+    {
+        "id": "ec063c27cbdff5bc",
+        "type": "link out",
+        "z": "bedf5b9469855c83",
+        "g": "1d9e4b26a824022f",
+        "name": " Unban OUT",
+        "links": [
+            "e7138cd2dc73b8c0"
+        ],
+        "x": 685,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "fc172da139ae610c",
+        "type": "inject",
+        "z": "bedf5b9469855c83",
+        "g": "1d9e4b26a824022f",
+        "name": "Inject",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payloadType": "date",
+        "x": 130,
+        "y": 380,
+        "wires": [
+            [
+                "09ca04c0b1964ea9"
+            ]
+        ]
+    },
+    {
+        "id": "09ca04c0b1964ea9",
+        "type": "function",
+        "z": "bedf5b9469855c83",
+        "g": "1d9e4b26a824022f",
+        "name": "Fake Ban",
+        "func": "msg.payload ={\n    \"subscription\": {\n        \"id\": \"f1c2a387-161a-49f9-a165-0f21d7a4e1c4\",\n        \"type\": \"channel.ban\",\n        \"version\": \"1\",\n        \"status\": \"enabled\",\n        \"cost\": 0,\n        \"condition\": {\n            \"broadcaster_user_id\": \"564492369\"\n        },\n         \"transport\": {\n            \"method\": \"webhook\",\n            \"callback\": \"https://example.com/webhooks/callback\"\n        },\n        \"created_at\": \"2019-11-16T10:11:12.123Z\"\n    },\n    \"event\": {\n        \"user_id\": \"1234\",\n        \"user_login\": \"cool_user\",\n        \"user_name\": \"Cool_User\",\n        \"broadcaster_user_id\": \"564492369\",\n        \"broadcaster_user_login\": \"ioodyme\",\n        \"broadcaster_user_name\": \"ioodyme\",\n        \"moderator_user_id\": \"1339\",\n        \"moderator_user_login\": \"mod_user\",\n        \"moderator_user_name\": \"Mod_User\",\n        \"reason\": \"Offensive language\",\n        \"ends_at\": \"2020-07-15T18:16:11.17106713Z\",\n        \"is_permanent\": false\n    }\n}\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 290,
+        "y": 380,
+        "wires": [
+            [
+                "c46892d6233c5391"
+            ]
+        ]
+    },
+    {
+        "id": "3e4196fcfe60dd91",
+        "type": "link out",
+        "z": "bedf5b9469855c83",
+        "g": "1d9e4b26a824022f",
+        "name": "Ban OUT",
+        "links": [
+            "46a44352c8d66e56"
+        ],
+        "x": 685,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "904fead80acf0883",
+        "type": "inject",
+        "z": "bedf5b9469855c83",
+        "g": "1d9e4b26a824022f",
+        "name": "Inject",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payloadType": "date",
+        "x": 130,
+        "y": 460,
+        "wires": [
+            [
+                "57835b0e8181dc56"
+            ]
+        ]
+    },
+    {
+        "id": "57835b0e8181dc56",
+        "type": "function",
+        "z": "bedf5b9469855c83",
+        "g": "1d9e4b26a824022f",
+        "name": "Fake Channel point",
+        "func": "msg.payload ={\n    \"subscription\": {\n        \"id\": \"f1c2a387-161a-49f9-a165-0f21d7a4e1c4\",\n        \"type\": \"channel.channel_points_custom_reward_redemption.add\",\n        \"version\": \"1\",\n        \"status\": \"enabled\",\n        \"cost\": 0,\n        \"condition\": {\n            \"broadcaster_user_id\": \"1337\"\n        },\n         \"transport\": {\n            \"method\": \"webhook\",\n            \"callback\": \"https://example.com/webhooks/callback\"\n        },\n        \"created_at\": \"2019-11-16T10:11:12.123Z\"\n    },\n    \"event\": {\n        \"id\": \"1234\",\n        \"broadcaster_user_id\": \"564492369\",\n        \"broadcaster_user_login\": \"ioodyme\",\n        \"broadcaster_user_name\": \"ioodyme\",\n        \"user_id\": \"9001\",\n        \"user_login\": \"cooler_user\",\n        \"user_name\": \"Cooler_User\",\n        \"user_input\": \"pogchamp\",\n        \"status\": \"unfulfilled\",\n        \"reward\": {\n            \"id\": \"9001\",\n            \"title\": \"title\",\n            \"cost\": 100,\n            \"prompt\": \"reward prompt\"\n        },\n        \"redeemed_at\": \"2020-07-15T17:16:03.17106713Z\"\n    }\n}\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 320,
+        "y": 460,
+        "wires": [
+            [
+                "c46892d6233c5391"
+            ]
+        ]
+    },
+    {
+        "id": "b97c23ba88296b1b",
+        "type": "link out",
+        "z": "bedf5b9469855c83",
+        "g": "1d9e4b26a824022f",
+        "name": "Channel point OUT",
+        "links": [
+            "2720e13c28d5f2a6",
+            "855f17e48633f9cb",
+            "bfd5b37e82c754af",
+            "716dda6b2e195e16",
+            "9f9939bb1d5a3621",
+            "1b401f6940424d10",
+            "f11751938967bc06",
+            "d0b826a68fb7648f"
+        ],
+        "x": 685,
+        "y": 460,
+        "wires": []
+    },
+    {
+        "id": "b4c1b467be768e4a",
+        "type": "inject",
+        "z": "bedf5b9469855c83",
+        "g": "1d9e4b26a824022f",
+        "name": "Inject",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payloadType": "date",
+        "x": 130,
+        "y": 580,
+        "wires": [
+            [
+                "76a3218918c97560"
+            ]
+        ]
+    },
+    {
+        "id": "76a3218918c97560",
+        "type": "function",
+        "z": "bedf5b9469855c83",
+        "g": "1d9e4b26a824022f",
+        "name": "Fake Poll end",
+        "func": "msg.payload ={\n    \"subscription\": {\n        \"id\": \"f1c2a387-161a-49f9-a165-0f21d7a4e1c4\",\n        \"type\": \"channel.poll.end\",\n        \"version\": \"1\",\n        \"status\": \"enabled\",\n        \"cost\": 0,\n        \"condition\": {\n            \"broadcaster_user_id\": \"1337\"\n        },\n         \"transport\": {\n            \"method\": \"webhook\",\n            \"callback\": \"https://example.com/webhooks/callback\"\n        },\n        \"created_at\": \"2019-11-16T10:11:12.123Z\"\n    },\n    \"event\": {\n        \"id\": \"1243456\",\n        \"broadcaster_user_id\": \"564492369\",\n        \"broadcaster_user_login\": \"ioodyme\",\n        \"broadcaster_user_name\": \"ioodyme\",\n        \"title\": \"Aren\u2019t shoes just really hard socks?\",\n        \"choices\": [\n            {\"id\": \"123\", \"title\": \"Blue\", \"bits_votes\": 50, \"channel_points_votes\": 70, \"votes\": 120},\n            {\"id\": \"124\", \"title\": \"Yellow\", \"bits_votes\": 100, \"channel_points_votes\": 40, \"votes\": 140},\n            {\"id\": \"125\", \"title\": \"Green\", \"bits_votes\": 10, \"channel_points_votes\": 70, \"votes\": 80}\n        ],\n        \"bits_voting\": {\n            \"is_enabled\": true,\n            \"amount_per_vote\": 10\n        },\n        \"channel_points_voting\": {\n            \"is_enabled\": true,\n            \"amount_per_vote\": 10\n        },\n        \"status\": \"completed\",\n        \"started_at\": \"2020-07-15T17:16:03.17106713Z\",\n        \"ended_at\": \"2020-07-15T17:16:11.17106713Z\"\n    }\n}\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 310,
+        "y": 580,
+        "wires": [
+            [
+                "c46892d6233c5391"
+            ]
+        ]
+    },
+    {
+        "id": "90d9f9f778dfea84",
+        "type": "link out",
+        "z": "bedf5b9469855c83",
+        "g": "1d9e4b26a824022f",
+        "name": "Poll End OUT",
+        "links": [
+            "440ca17ff1420dfe"
+        ],
+        "x": 685,
+        "y": 580,
+        "wires": []
+    },
+    {
+        "id": "1b82f3fefef1c56c",
+        "type": "inject",
+        "z": "bedf5b9469855c83",
+        "g": "1d9e4b26a824022f",
+        "name": "Inject",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payloadType": "date",
+        "x": 130,
+        "y": 500,
+        "wires": [
+            [
+                "427e0239f95d69ba"
+            ]
+        ]
+    },
+    {
+        "id": "427e0239f95d69ba",
+        "type": "function",
+        "z": "bedf5b9469855c83",
+        "g": "1d9e4b26a824022f",
+        "name": "Fake Poll Begin",
+        "func": "msg.payload ={\n    \"subscription\": {\n        \"id\": \"f1c2a387-161a-49f9-a165-0f21d7a4e1c4\",\n        \"type\": \"channel.poll.begin\",\n        \"version\": \"1\",\n        \"status\": \"enabled\",\n        \"cost\": 0,\n        \"condition\": {\n            \"broadcaster_user_id\": \"564492369\"\n        },\n         \"transport\": {\n            \"method\": \"webhook\",\n            \"callback\": \"https://example.com/webhooks/callback\"\n        },\n        \"created_at\": \"2019-11-16T10:11:12.123Z\"\n    },\n    \"event\": {\n        \"id\": \"1243456\",\n        \"broadcaster_user_id\": \"564492369\",\n        \"broadcaster_user_login\": \"ioodyme\",\n        \"broadcaster_user_name\": \"ioodyme\",\n        \"title\": \"Aren\u2019t shoes just really hard socks?\",\n        \"choices\": [\n            {\"id\": \"123\", \"title\": \"Yeah!\"},\n            {\"id\": \"124\", \"title\": \"No!\"},\n            {\"id\": \"125\", \"title\": \"Maybe!\"}\n        ],\n        \"bits_voting\": {\n            \"is_enabled\": true,\n            \"amount_per_vote\": 10\n        },\n        \"channel_points_voting\": {\n            \"is_enabled\": true,\n            \"amount_per_vote\": 10\n        },\n        \"started_at\": \"2020-07-15T17:16:03.17106713Z\",\n        \"ends_at\": \"2020-07-15T17:16:08.17106713Z\"\n    }\n}\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 310,
+        "y": 500,
+        "wires": [
+            [
+                "c46892d6233c5391"
+            ]
+        ]
+    },
+    {
+        "id": "f71de6f3f45ab546",
+        "type": "link out",
+        "z": "bedf5b9469855c83",
+        "g": "1d9e4b26a824022f",
+        "name": "Poll Begin OUT",
+        "mode": "link",
+        "links": [
+            "c977fc48940eaa1f"
+        ],
+        "x": 685,
+        "y": 500,
+        "wires": []
+    },
+    {
+        "id": "aafeca1840745c1a",
+        "type": "inject",
+        "z": "bedf5b9469855c83",
+        "g": "1d9e4b26a824022f",
+        "name": "Inject",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payloadType": "date",
+        "x": 130,
+        "y": 620,
+        "wires": [
+            [
+                "641360867f4299e0"
+            ]
+        ]
+    },
+    {
+        "id": "641360867f4299e0",
+        "type": "function",
+        "z": "bedf5b9469855c83",
+        "g": "1d9e4b26a824022f",
+        "name": "Fake Prediction Begin",
+        "func": "msg.payload ={\n    \"subscription\": {\n        \"id\": \"f1c2a387-161a-49f9-a165-0f21d7a4e1c4\",\n        \"type\": \"channel.prediction.begin\",\n        \"version\": \"1\",\n        \"status\": \"enabled\",\n        \"cost\": 0,\n        \"condition\": {\n            \"broadcaster_user_id\": \"564492369\"\n        },\n         \"transport\": {\n            \"method\": \"webhook\",\n            \"callback\": \"https://example.com/webhooks/callback\"\n        },\n        \"created_at\": \"2019-11-16T10:11:12.123Z\"\n    },\n    \"event\": {\n        \"id\": \"1243456\",\n        \"broadcaster_user_id\": \"564492369\",\n        \"broadcaster_user_login\": \"ioodyme\",\n        \"broadcaster_user_name\": \"ioodyme\",\n        \"title\": \"Aren\u2019t shoes just really hard socks?\",\n        \"outcomes\": [\n            {\"id\": \"1243456\", \"title\": \"Yeah!\", \"color\": \"blue\"},\n            {\"id\": \"2243456\", \"title\": \"No!\", \"color\": \"pink\"},\n        ],\n        \"started_at\": \"2020-07-15T17:16:03.17106713Z\",\n        \"locks_at\": \"2020-07-15T17:21:03.17106713Z\"\n    }\n}\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 330,
+        "y": 620,
+        "wires": [
+            [
+                "c46892d6233c5391"
+            ]
+        ]
+    },
+    {
+        "id": "956b7e15e56e3e6e",
+        "type": "link out",
+        "z": "bedf5b9469855c83",
+        "g": "1d9e4b26a824022f",
+        "name": " Prediction Begin OUT",
+        "links": [
+            "02eff79de54243df"
+        ],
+        "x": 685,
+        "y": 620,
+        "wires": []
+    },
+    {
+        "id": "2557738c1c37389e",
+        "type": "inject",
+        "z": "bedf5b9469855c83",
+        "g": "1d9e4b26a824022f",
+        "name": "Inject",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payloadType": "date",
+        "x": 130,
+        "y": 740,
+        "wires": [
+            [
+                "976a5ddd48218c96"
+            ]
+        ]
+    },
+    {
+        "id": "976a5ddd48218c96",
+        "type": "function",
+        "z": "bedf5b9469855c83",
+        "g": "1d9e4b26a824022f",
+        "name": "Fake HypeTrain Begin",
+        "func": "msg.payload ={\n    \"subscription\": {\n        \"id\": \"f1c2a387-161a-49f9-a165-0f21d7a4e1c4\",\n        \"type\": \"channel.hype_train.begin\",\n        \"version\": \"1\",\n        \"status\": \"enabled\",\n        \"cost\": 0,\n        \"condition\": {\n            \"broadcaster_user_id\": \"564492369\"\n        },\n         \"transport\": {\n            \"method\": \"webhook\",\n            \"callback\": \"https://example.com/webhooks/callback\"\n        },\n        \"created_at\": \"2019-11-16T10:11:12.123Z\"\n    },\n    \"event\": {\n        \"id\": \"1b0AsbInCHZW2SQFQkCzqN07Ib2\",\n        \"broadcaster_user_id\": \"564492369\",\n        \"broadcaster_user_login\": \"ioodyme\",\n        \"broadcaster_user_name\": \"ioodyme\",\n        \"total\": 137,\n        \"progress\": 137,\n        \"goal\": 500,\n        \"top_contributions\": [\n            { \"user_id\": \"123\", \"user_login\": \"pogchamp\", \"user_name\": \"PogChamp\", \"type\": \"bits\", \"total\": 50 },\n            { \"user_id\": \"456\", \"user_login\": \"kappa\", \"user_name\": \"Kappa\", \"type\": \"subscription\", \"total\": 45 }\n        ],\n        \"last_contribution\": { \"user_id\": \"123\", \"user_login\": \"pogchamp\", \"user_name\": \"PogChamp\", \"type\": \"bits\", \"total\": 50 },\n        \"started_at\": \"2020-07-15T17:16:03.17106713Z\",\n        \"expires_at\": \"2020-07-15T17:16:11.17106713Z\"\n    }\n}\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 330,
+        "y": 740,
+        "wires": [
+            [
+                "c46892d6233c5391"
+            ]
+        ]
+    },
+    {
+        "id": "aa03c725061760dd",
+        "type": "link out",
+        "z": "bedf5b9469855c83",
+        "g": "1d9e4b26a824022f",
+        "name": "HypeTrain Begin OUT",
+        "links": [
+            "3445992ddf31cb4e"
+        ],
+        "x": 685,
+        "y": 740,
+        "wires": []
+    },
+    {
+        "id": "c936ce23cdc37428",
+        "type": "inject",
+        "z": "bedf5b9469855c83",
+        "g": "1d9e4b26a824022f",
+        "name": "Inject",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payloadType": "date",
+        "x": 130,
+        "y": 700,
+        "wires": [
+            [
+                "7cb22ecd302d5fe5"
+            ]
+        ]
+    },
+    {
+        "id": "7cb22ecd302d5fe5",
+        "type": "function",
+        "z": "bedf5b9469855c83",
+        "g": "1d9e4b26a824022f",
+        "name": "Fake Prediction End",
+        "func": "msg.payload ={\n    \"subscription\": {\n        \"id\": \"f1c2a387-161a-49f9-a165-0f21d7a4e1c4\",\n        \"type\": \"channel.prediction.end\",\n        \"version\": \"1\",\n        \"status\": \"enabled\",\n        \"cost\": 0,\n        \"condition\": {\n            \"broadcaster_user_id\": \"564492369\"\n        },\n         \"transport\": {\n            \"method\": \"webhook\",\n            \"callback\": \"https://example.com/webhooks/callback\"\n        },\n        \"created_at\": \"2019-11-16T10:11:12.123Z\"\n    },\n    \"event\": {\n        \"id\": \"1243456\",\n        \"broadcaster_user_id\": \"564492369\",\n        \"broadcaster_user_login\": \"ioodyme\",\n        \"broadcaster_user_name\": \"ioodyme\",\n        \"title\": \"Aren\u2019t shoes just really hard socks?\",\n        \"winning_outcome_id\": \"12345\",\n        \"outcomes\": [\n            {\n                \"id\": \"12345\",\n                \"title\": \"Yeah!\",\n                \"color\": \"blue\", // can be blue or pink\n                \"users\": 2,\n                \"channel_points\": 15000,\n                \"top_predictors\": [ // contains up to 10 users\n                    {\n                        \"user_name\": \"Cool_User\",\n                        \"user_login\": \"cool_user\",\n                        \"user_id\": \"1234\",\n                        \"channel_points_won\": 10000,\n                        \"channel_points_used\": 500\n                    },\n                    {\n                        \"user_name\": \"Coolest_User\",\n                        \"user_login\": \"coolest_user\",\n                        \"user_id\": \"1236\",\n                        \"channel_points_won\": 5000,\n                        \"channel_points_used\": 100\n                    },\n                ]\n            },\n            {\n                \"id\": \"22435\",\n                \"title\": \"No!\",\n                \"users\": 2,\n                \"channel_points\": 200,\n                \"color\": \"pink\",\n                \"top_predictors\": [\n                    {\n                        \"user_name\": \"Cooler_User\",\n                        \"user_login\": \"cooler_user\",\n                        \"user_id\": 12345,\n                        \"channel_points_won\": null, // null if result is refund or loss\n                        \"channel_points_used\": 100\n                    },\n                    {\n                        \"user_name\": \"Elite_User\",\n                        \"user_login\": \"elite_user\",\n                        \"user_id\": 1337,\n                        \"channel_points_won\": null, // null if result is refund or loss\n                        \"channel_points_used\": 100\n                    }\n                ]\n            }\n        ],\n        \"status\": \"resolved\", // valid values: resolved, canceled\n        \"started_at\": \"2020-07-15T17:16:03.17106713Z\",\n        \"ended_at\": \"2020-07-15T17:16:11.17106713Z\"\n    }\n}\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 330,
+        "y": 700,
+        "wires": [
+            [
+                "c46892d6233c5391"
+            ]
+        ]
+    },
+    {
+        "id": "8b358c8a79eba44f",
+        "type": "link out",
+        "z": "bedf5b9469855c83",
+        "g": "1d9e4b26a824022f",
+        "name": "Prediction End OUT",
+        "links": [
+            "d8842a92a68f0e27"
+        ],
+        "x": 685,
+        "y": 700,
+        "wires": []
+    },
+    {
+        "id": "e2e09ba8297e6c08",
+        "type": "inject",
+        "z": "bedf5b9469855c83",
+        "g": "1d9e4b26a824022f",
+        "name": "Inject",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payloadType": "date",
+        "x": 130,
+        "y": 820,
+        "wires": [
+            [
+                "91a14548331e78ff"
+            ]
+        ]
+    },
+    {
+        "id": "91a14548331e78ff",
+        "type": "function",
+        "z": "bedf5b9469855c83",
+        "g": "1d9e4b26a824022f",
+        "name": "Fake HypeTrain End",
+        "func": "msg.payload ={\n    \"subscription\": {\n        \"id\": \"f1c2a387-161a-49f9-a165-0f21d7a4e1c4\",\n        \"type\": \"channel.hype_train.end\",\n        \"version\": \"1\",\n        \"status\": \"enabled\",\n        \"cost\": 0,\n        \"condition\": {\n            \"broadcaster_user_id\": \"564492369\"\n        },\n         \"transport\": {\n            \"method\": \"webhook\",\n            \"callback\": \"https://example.com/webhooks/callback\"\n        },\n        \"created_at\": \"2019-11-16T10:11:12.123Z\"\n    },\n    \"event\": {\n        \"id\": \"1b0AsbInCHZW2SQFQkCzqN07Ib2\",\n        \"broadcaster_user_id\": \"564492369\",\n        \"broadcaster_user_login\": \"ioodyme\",\n        \"broadcaster_user_name\": \"ioodyme\",\n        \"level\": 2,\n        \"total\": 137,\n        \"top_contributions\": [\n            { \"user_id\": \"123\", \"user_login\": \"pogchamp\", \"user_name\": \"PogChamp\", \"type\": \"bits\", \"total\": 50 },\n            { \"user_id\": \"456\", \"user_login\": \"kappa\", \"user_name\": \"Kappa\", \"type\": \"subscription\", \"total\": 45 }\n        ],\n        \"started_at\": \"2020-07-15T17:16:03.17106713Z\",\n        \"ended_at\": \"2020-07-15T17:16:11.17106713Z\",\n        \"cooldown_ends_at\": \"2020-07-15T18:16:11.17106713Z\"\n    }\n}\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 330,
+        "y": 820,
+        "wires": [
+            [
+                "c46892d6233c5391"
+            ]
+        ]
+    },
+    {
+        "id": "74a51ad373778ee6",
+        "type": "link out",
+        "z": "bedf5b9469855c83",
+        "g": "1d9e4b26a824022f",
+        "name": "HypeTrain End OUT",
+        "links": [
+            "c22851c0379367b6"
+        ],
+        "x": 685,
+        "y": 820,
+        "wires": []
+    },
+    {
+        "id": "cb0ba07aa871111a",
+        "type": "inject",
+        "z": "bedf5b9469855c83",
+        "g": "1d9e4b26a824022f",
+        "name": "Inject",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payloadType": "date",
+        "x": 130,
+        "y": 860,
+        "wires": [
+            [
+                "e8239ae110070f53"
+            ]
+        ]
+    },
+    {
+        "id": "e8239ae110070f53",
+        "type": "function",
+        "z": "bedf5b9469855c83",
+        "g": "1d9e4b26a824022f",
+        "name": "Fake Stream Online",
+        "func": "msg.payload ={\n    \"subscription\": {\n        \"id\": \"f1c2a387-161a-49f9-a165-0f21d7a4e1c4\",\n        \"type\": \"stream.online\",\n        \"version\": \"1\",\n        \"status\": \"enabled\",\n        \"cost\": 0,\n        \"condition\": {\n            \"broadcaster_user_id\": \"564492369\"\n        },\n         \"transport\": {\n            \"method\": \"webhook\",\n            \"callback\": \"https://example.com/webhooks/callback\"\n        },\n        \"created_at\": \"2019-11-16T10:11:12.123Z\"\n    },\n    \"event\": {\n        \"id\": \"9001\",\n        \"broadcaster_user_id\": \"564492369\",\n        \"broadcaster_user_login\": \"ioodyme\",\n        \"broadcaster_user_name\": \"ioodyme\",\n        \"type\": \"live\",\n        \"started_at\": \"2020-10-11T10:11:12.123Z\"\n    }\n}\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 330,
+        "y": 860,
+        "wires": [
+            [
+                "c46892d6233c5391"
+            ]
+        ]
+    },
+    {
+        "id": "104b71d90f13b9fa",
+        "type": "link out",
+        "z": "bedf5b9469855c83",
+        "g": "1d9e4b26a824022f",
+        "name": "Stream Online OUT",
+        "mode": "link",
+        "links": [
+            "97fecabe81f273fd"
+        ],
+        "x": 685,
+        "y": 860,
+        "wires": []
+    },
+    {
+        "id": "3b489bf1f69ab04e",
+        "type": "inject",
+        "z": "bedf5b9469855c83",
+        "g": "1d9e4b26a824022f",
+        "name": "Inject",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payloadType": "date",
+        "x": 130,
+        "y": 780,
+        "wires": [
+            [
+                "e158862b2ad9e355"
+            ]
+        ]
+    },
+    {
+        "id": "e158862b2ad9e355",
+        "type": "function",
+        "z": "bedf5b9469855c83",
+        "g": "1d9e4b26a824022f",
+        "name": "Fake HypeTrainProgress",
+        "func": "msg.payload ={\n    \"subscription\": {\n        \"id\": \"f1c2a387-161a-49f9-a165-0f21d7a4e1c4\",\n        \"type\": \"channel.hype_train.progress\",\n        \"version\": \"1\",\n        \"status\": \"enabled\",\n        \"cost\": 0,\n        \"condition\": {\n            \"broadcaster_user_id\": \"564492369\"\n        },\n         \"transport\": {\n            \"method\": \"webhook\",\n            \"callback\": \"https://example.com/webhooks/callback\"\n        },\n        \"created_at\": \"2019-11-16T10:11:12.123Z\"\n    },\n    \"event\": {\n        \"id\": \"1b0AsbInCHZW2SQFQkCzqN07Ib2\",\n        \"broadcaster_user_id\": \"564492369\",\n        \"broadcaster_user_login\": \"ioodyme\",\n        \"broadcaster_user_name\": \"ioodyme\",\n        \"level\": 2,\n        \"total\": 700,\n        \"progress\": 200,\n        \"goal\": 1000,\n        \"top_contributions\": [\n            { \"user_id\": \"123\", \"user_login\": \"pogchamp\", \"user_name\": \"PogChamp\", \"type\": \"bits\", \"total\": 50 },\n            { \"user_id\": \"456\", \"user_login\": \"kappa\", \"user_name\": \"Kappa\", \"type\": \"subscription\", \"total\": 45 }\n        ],\n        \"last_contribution\": { \"user_id\": \"123\", \"user_login\": \"pogchamp\", \"user_name\": \"PogChamp\", \"type\": \"bits\", \"total\": 50 },\n        \"started_at\": \"2020-07-15T17:16:03.17106713Z\",\n        \"expires_at\": \"2020-07-15T17:16:11.17106713Z\"\n    }\n}\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 340,
+        "y": 780,
+        "wires": [
+            [
+                "c46892d6233c5391"
+            ]
+        ]
+    },
+    {
+        "id": "a3ee39814135cad2",
+        "type": "link out",
+        "z": "bedf5b9469855c83",
+        "g": "1d9e4b26a824022f",
+        "name": "HypeTrain Progress OUT",
+        "links": [
+            "1d7fb21bf35a91b8"
+        ],
+        "x": 685,
+        "y": 780,
+        "wires": []
+    },
+    {
+        "id": "4309ad73534e365c",
+        "type": "inject",
+        "z": "bedf5b9469855c83",
+        "g": "1d9e4b26a824022f",
+        "name": "Inject",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payloadType": "date",
+        "x": 130,
+        "y": 900,
+        "wires": [
+            [
+                "2e435c1be18bebf7"
+            ]
+        ]
+    },
+    {
+        "id": "2e435c1be18bebf7",
+        "type": "function",
+        "z": "bedf5b9469855c83",
+        "g": "1d9e4b26a824022f",
+        "name": "Fake Stream Offline",
+        "func": "msg.payload ={\n    \"subscription\": {\n        \"id\": \"f1c2a387-161a-49f9-a165-0f21d7a4e1c4\",\n        \"type\": \"stream.offline\",\n        \"version\": \"1\",\n        \"status\": \"enabled\",\n        \"cost\": 0,\n        \"condition\": {\n            \"broadcaster_user_id\": \"564492369\"\n        },\n        \"created_at\": \"2019-11-16T10:11:12.123Z\",\n         \"transport\": {\n            \"method\": \"webhook\",\n            \"callback\": \"https://example.com/webhooks/callback\"\n        }\n    },\n    \"event\": {\n        \"broadcaster_user_id\": \"564492369\",\n        \"broadcaster_user_login\": \"ioodyme\",\n        \"broadcaster_user_name\": \"ioodyme\"\n    }\n}\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 330,
+        "y": 900,
+        "wires": [
+            [
+                "c46892d6233c5391"
+            ]
+        ]
+    },
+    {
+        "id": "07c0971dd23dd62d",
+        "type": "link out",
+        "z": "bedf5b9469855c83",
+        "g": "1d9e4b26a824022f",
+        "name": "Stream Offline OUT",
+        "mode": "link",
+        "links": [
+            "63c02972795b5176"
+        ],
+        "x": 685,
+        "y": 900,
+        "wires": []
+    },
+    {
+        "id": "59dac292ac05e5d8",
+        "type": "inject",
+        "z": "bedf5b9469855c83",
+        "g": "1d9e4b26a824022f",
+        "name": "Inject",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payloadType": "date",
+        "x": 130,
+        "y": 540,
+        "wires": [
+            [
+                "9cae1c4a7541c723"
+            ]
+        ]
+    },
+    {
+        "id": "9cae1c4a7541c723",
+        "type": "function",
+        "z": "bedf5b9469855c83",
+        "g": "1d9e4b26a824022f",
+        "name": "Fake Poll Progress",
+        "func": "msg.payload ={\n    \"subscription\": {\n        \"id\": \"f1c2a387-161a-49f9-a165-0f21d7a4e1c4\",\n        \"type\": \"channel.poll.progress\",\n        \"version\": \"1\",\n        \"status\": \"enabled\",\n        \"cost\": 0,\n        \"condition\": {\n            \"broadcaster_user_id\": \"564492369\"\n        },\n         \"transport\": {\n            \"method\": \"webhook\",\n            \"callback\": \"https://example.com/webhooks/callback\"\n        },\n        \"created_at\": \"2019-11-16T10:11:12.123Z\"\n    },\n    \"event\": {\n        \"id\": \"1243456\",\n        \"broadcaster_user_id\": \"564492369\",\n        \"broadcaster_user_login\": \"ioodyme\",\n        \"broadcaster_user_name\": \"ioodyme\",\n        \"title\": \"Aren\u2019t shoes just really hard socks?\",\n        \"choices\": [\n            {\"id\": \"123\", \"title\": \"Yeah!\", \"bits_votes\": 5, \"channel_points_votes\": 7, \"votes\": 12},\n            {\"id\": \"124\", \"title\": \"No!\", \"bits_votes\": 10, \"channel_points_votes\": 4, \"votes\": 14},\n            {\"id\": \"125\", \"title\": \"Maybe!\", \"bits_votes\": 0, \"channel_points_votes\": 7, \"votes\": 7}\n        ],\n        \"bits_voting\": {\n            \"is_enabled\": true,\n            \"amount_per_vote\": 10\n        },\n        \"channel_points_voting\": {\n            \"is_enabled\": true,\n            \"amount_per_vote\": 10\n        },\n        \"started_at\": \"2020-07-15T17:16:03.17106713Z\",\n        \"ends_at\": \"2020-07-15T17:16:08.17106713Z\"\n    }\n}\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 320,
+        "y": 540,
+        "wires": [
+            [
+                "c46892d6233c5391"
+            ]
+        ]
+    },
+    {
+        "id": "52f26835eeca107c",
+        "type": "link out",
+        "z": "bedf5b9469855c83",
+        "g": "1d9e4b26a824022f",
+        "name": "Poll Progress OUT",
+        "links": [
+            "013eac261f7f830a"
+        ],
+        "x": 685,
+        "y": 540,
+        "wires": []
+    },
+    {
+        "id": "03c5d3303b39046e",
+        "type": "link out",
+        "z": "bedf5b9469855c83",
+        "g": "1d9e4b26a824022f",
+        "name": "Prediction Progress OUT",
+        "links": [
+            "58059205d3b59963"
+        ],
+        "x": 685,
+        "y": 660,
+        "wires": []
+    },
+    {
+        "id": "8fe676f729352bd3",
+        "type": "inject",
+        "z": "bedf5b9469855c83",
+        "g": "1d9e4b26a824022f",
+        "name": "Inject",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payloadType": "date",
+        "x": 130,
+        "y": 660,
+        "wires": [
+            [
+                "870a89265d2adf1d"
+            ]
+        ]
+    },
+    {
+        "id": "870a89265d2adf1d",
+        "type": "function",
+        "z": "bedf5b9469855c83",
+        "g": "1d9e4b26a824022f",
+        "name": "Fake Prediction progress",
+        "func": "msg.payload ={\n    \"subscription\": {\n        \"id\": \"f1c2a387-161a-49f9-a165-0f21d7a4e1c4\",\n        \"type\": \"channel.prediction.progress\",\n        \"version\": \"1\",\n        \"status\": \"enabled\",\n        \"cost\": 0,\n        \"condition\": {\n            \"broadcaster_user_id\": \"564492369\"\n        },\n         \"transport\": {\n            \"method\": \"webhook\",\n            \"callback\": \"https://example.com/webhooks/callback\"\n        },\n        \"created_at\": \"2019-11-16T10:11:12.123Z\"\n    },\n    \"event\": {\n        \"id\": \"1243456\",\n        \"broadcaster_user_id\": \"564492369\",\n        \"broadcaster_user_login\": \"ioodyme\",\n        \"broadcaster_user_name\": \"ioodyme\",\n        \"title\": \"Aren\u2019t shoes just really hard socks?\",\n        \"outcomes\": [\n            {\n                \"id\": \"1243456\",\n                \"title\": \"Yeah!\",\n                \"color\": \"blue\",\n                \"users\": 10,\n                \"channel_points\": 15000,\n                \"top_predictors\": [ // contains up to 10 users\n                    {\n                        \"user_name\": \"Cool_User\",\n                        \"user_login\": \"cool_user\",\n                        \"user_id\": \"1234\",\n                        \"channel_points_won\": null,\n                        \"channel_points_used\": 500\n                    },\n                    {\n                        \"user_name\": \"Coolest_User\",\n                        \"user_login\": \"coolest_user\",\n                        \"user_id\": \"1236\",\n                        \"channel_points_won\": null,\n                        \"channel_points_used\": 200\n                    }\n                ]\n            },\n            {\n                \"id\": \"2243456\",\n                \"title\": \"No!\",\n                \"color\": \"pink\",\n                \"top_predictors\": [ // contains up to 10 users\n                    {\n                        \"user_name\": \"Cooler_User\",\n                        \"user_login\": \"cooler_user\",\n                        \"user_id\": 12345,\n                        \"channel_points_won\": null,\n                        \"channel_points_used\": 5000\n                    }\n                ]\n            },\n        ],\n        \"started_at\": \"2020-07-15T17:16:03.17106713Z\",\n        \"locks_at\": \"2020-07-15T17:21:03.17106713Z\"\n    }\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 340,
+        "y": 660,
+        "wires": [
+            [
+                "c46892d6233c5391"
+            ]
+        ]
+    },
+    {
+        "id": "8a0b93500015be22",
+        "type": "debug",
+        "z": "bedf5b9469855c83",
+        "g": "1d9e4b26a824022f",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 530,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "7098c94cefad6f46",
+        "type": "function",
+        "z": "bedf5b9469855c83",
+        "g": "c3a384b88e4aae92",
+        "name": "Channel Update",
+        "func": "const broadcaster = msg.payload.event.broadcaster_user_name;\nconst title = msg.payload.event.title;\nconst category = msg.payload.event.category_name;\n\nreturn [{payload: broadcaster}, {payload : title}, {payload : category}];",
+        "outputs": 3,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 920,
+        "y": 70,
+        "wires": [
+            [
+                "d8d1f2dfc5c946e8"
+            ],
+            [
+                "d8d1f2dfc5c946e8"
+            ],
+            [
+                "d8d1f2dfc5c946e8"
+            ]
+        ],
+        "outputLabels": [
+            "Broadcaster",
+            "Title",
+            "Category"
+        ]
+    },
+    {
+        "id": "3c5392d536a6758c",
+        "type": "link in",
+        "z": "bedf5b9469855c83",
+        "g": "c3a384b88e4aae92",
+        "name": "Channel Update",
+        "links": [
+            "d1c64ebc8a5feec9"
+        ],
+        "x": 795,
+        "y": 70,
+        "wires": [
+            [
+                "7098c94cefad6f46"
+            ]
+        ]
+    },
+    {
+        "id": "d8d1f2dfc5c946e8",
+        "type": "debug",
+        "z": "bedf5b9469855c83",
+        "g": "c3a384b88e4aae92",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1100,
+        "y": 70,
+        "wires": []
+    },
+    {
+        "id": "e3fdefc8024d75a1",
+        "type": "link in",
+        "z": "bedf5b9469855c83",
+        "g": "c3a384b88e4aae92",
+        "name": "Follower",
+        "links": [
+            "099c35a256887f74"
+        ],
+        "x": 795,
+        "y": 120,
+        "wires": [
+            [
+                "781d8b6ea144560b"
+            ]
+        ]
+    },
+    {
+        "id": "781d8b6ea144560b",
+        "type": "function",
+        "z": "bedf5b9469855c83",
+        "g": "c3a384b88e4aae92",
+        "name": "Follower",
+        "func": "const username = msg.payload.event.user_name;\n\nreturn [{payload : username}];",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 900,
+        "y": 120,
+        "wires": [
+            [
+                "44c07fb9fc35c75c"
+            ]
+        ],
+        "outputLabels": [
+            "Follower Username"
+        ]
+    },
+    {
+        "id": "46a3a69959ede421",
+        "type": "link in",
+        "z": "bedf5b9469855c83",
+        "g": "c3a384b88e4aae92",
+        "name": "Subscriber",
+        "links": [
+            "35d2b6f068729230"
+        ],
+        "x": 795,
+        "y": 160,
+        "wires": [
+            [
+                "0706fa919a2b66b7"
+            ]
+        ]
+    },
+    {
+        "id": "0706fa919a2b66b7",
+        "type": "function",
+        "z": "bedf5b9469855c83",
+        "g": "c3a384b88e4aae92",
+        "name": "Subscriber",
+        "func": "const username = msg.payload.event.user_name;\nconst tier = parseInt(msg.payload.event.tier)/1000;\n\nreturn [{payload : username}, {payload : tier}];\n",
+        "outputs": 2,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 910,
+        "y": 160,
+        "wires": [
+            [
+                "13aa39ce93155d90"
+            ],
+            [
+                "13aa39ce93155d90"
+            ]
+        ],
+        "outputLabels": [
+            "Subscriber Username",
+            "Tier"
+        ]
+    },
+    {
+        "id": "13aa39ce93155d90",
+        "type": "debug",
+        "z": "bedf5b9469855c83",
+        "g": "c3a384b88e4aae92",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1100,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "22b9bd03717a6092",
+        "type": "function",
+        "z": "bedf5b9469855c83",
+        "g": "c3a384b88e4aae92",
+        "name": "SubGift",
+        "func": "const username = msg.payload.event.user_name;\nconst tier = parseInt(msg.payload.event.tier)/1000;\n\nreturn [{payload : username}, {payload : tier}];\n",
+        "outputs": 2,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 900,
+        "y": 200,
+        "wires": [
+            [
+                "c9bd7b1cdbdaca88"
+            ],
+            [
+                "c9bd7b1cdbdaca88"
+            ]
+        ],
+        "outputLabels": [
+            "Subscriber Username",
+            "Tier"
+        ]
+    },
+    {
+        "id": "bc942504e9d6822a",
+        "type": "link in",
+        "z": "bedf5b9469855c83",
+        "g": "c3a384b88e4aae92",
+        "name": "SubGift",
+        "links": [
+            "66db194703a62045"
+        ],
+        "x": 795,
+        "y": 200,
+        "wires": [
+            [
+                "22b9bd03717a6092"
+            ]
+        ]
+    },
+    {
+        "id": "c9bd7b1cdbdaca88",
+        "type": "debug",
+        "z": "bedf5b9469855c83",
+        "g": "c3a384b88e4aae92",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1100,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "2e12e6b6e53b0967",
+        "type": "function",
+        "z": "bedf5b9469855c83",
+        "g": "c3a384b88e4aae92",
+        "name": "Sub Mesage",
+        "func": "const username = msg.payload.event.user_name;\nconst tier = parseInt(msg.payload.event.tier)/1000;\nconst message = msg.payload.event.message.text;\n\nreturn [{payload : username}, {payload : tier}, {payload : message}];",
+        "outputs": 3,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 910,
+        "y": 250,
+        "wires": [
+            [
+                "c4cd0c41321ef3bd"
+            ],
+            [
+                "c4cd0c41321ef3bd"
+            ],
+            [
+                "c4cd0c41321ef3bd"
+            ]
+        ],
+        "outputLabels": [
+            "Subscriber Username",
+            "Tier",
+            "Message"
+        ]
+    },
+    {
+        "id": "f436b7331bd9609b",
+        "type": "link in",
+        "z": "bedf5b9469855c83",
+        "g": "c3a384b88e4aae92",
+        "name": "Sub Message",
+        "links": [
+            "7008cac6ebd21511"
+        ],
+        "x": 795,
+        "y": 250,
+        "wires": [
+            [
+                "2e12e6b6e53b0967"
+            ]
+        ]
+    },
+    {
+        "id": "c4cd0c41321ef3bd",
+        "type": "debug",
+        "z": "bedf5b9469855c83",
+        "g": "c3a384b88e4aae92",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1100,
+        "y": 250,
+        "wires": []
+    },
+    {
+        "id": "4c49467a35df9851",
+        "type": "function",
+        "z": "bedf5b9469855c83",
+        "g": "c3a384b88e4aae92",
+        "name": "Bits",
+        "func": "const username = msg.payload.event.user_name;\nconst bits = msg.payload.event.bits;\nconst message = msg.payload.event.message;\n\nreturn [{payload : username}, {payload : bits}, {payload : message}];",
+        "outputs": 3,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 890,
+        "y": 310,
+        "wires": [
+            [
+                "ca9267f59495a61e"
+            ],
+            [
+                "ca9267f59495a61e"
+            ],
+            [
+                "ca9267f59495a61e"
+            ]
+        ],
+        "outputLabels": [
+            "Username",
+            "Bits",
+            "Message"
+        ]
+    },
+    {
+        "id": "674ee05d36a01381",
+        "type": "link in",
+        "z": "bedf5b9469855c83",
+        "g": "c3a384b88e4aae92",
+        "name": "Bits",
+        "links": [
+            "e1ed82cfe4ac1c7b"
+        ],
+        "x": 795,
+        "y": 310,
+        "wires": [
+            [
+                "4c49467a35df9851"
+            ]
+        ]
+    },
+    {
+        "id": "ca9267f59495a61e",
+        "type": "debug",
+        "z": "bedf5b9469855c83",
+        "g": "c3a384b88e4aae92",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1100,
+        "y": 310,
+        "wires": []
+    },
+    {
+        "id": "c282f7bbe2ea94a6",
+        "type": "function",
+        "z": "bedf5b9469855c83",
+        "g": "c3a384b88e4aae92",
+        "name": "Raid",
+        "func": "const username = msg.payload.event.from_broadcaster_user_name;\nconst viewers = msg.payload.event.viewers;\n\nreturn[{payload : username}, {payload : viewers}];",
+        "outputs": 2,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 890,
+        "y": 360,
+        "wires": [
+            [
+                "0e8b1da7d78d9e04"
+            ],
+            [
+                "0e8b1da7d78d9e04"
+            ]
+        ],
+        "outputLabels": [
+            "Broadcaster Username",
+            "Viewers"
+        ]
+    },
+    {
+        "id": "6c6457495d5b73d4",
+        "type": "link in",
+        "z": "bedf5b9469855c83",
+        "g": "c3a384b88e4aae92",
+        "name": "Raid",
+        "links": [
+            "8e64834c2e4ab9c6"
+        ],
+        "x": 795,
+        "y": 360,
+        "wires": [
+            [
+                "c282f7bbe2ea94a6"
+            ]
+        ]
+    },
+    {
+        "id": "0e8b1da7d78d9e04",
+        "type": "debug",
+        "z": "bedf5b9469855c83",
+        "g": "c3a384b88e4aae92",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1100,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "216bb963f207e682",
+        "type": "function",
+        "z": "bedf5b9469855c83",
+        "g": "c3a384b88e4aae92",
+        "name": "Ban",
+        "func": "const username = msg.payload.event.user_name;\nconst moderator = msg.payload.event.moderator_user_name;\nconst reason = msg.payload.event.reason;\nconst end = msg.payload.event.ends_at;\nconst permanent = msg.payload.event.is_permanent;\n\nreturn [{payload : username},{payload : moderator},{payload : reason}, {payload : end},{payload : permanent}];",
+        "outputs": 5,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 890,
+        "y": 420,
+        "wires": [
+            [
+                "d1e21ddc83cc908f"
+            ],
+            [
+                "d1e21ddc83cc908f"
+            ],
+            [
+                "d1e21ddc83cc908f"
+            ],
+            [
+                "d1e21ddc83cc908f"
+            ],
+            [
+                "d1e21ddc83cc908f"
+            ]
+        ],
+        "outputLabels": [
+            "Banned User",
+            "Moderator",
+            "Reason",
+            "End date",
+            "Permanent"
+        ]
+    },
+    {
+        "id": "46a44352c8d66e56",
+        "type": "link in",
+        "z": "bedf5b9469855c83",
+        "g": "c3a384b88e4aae92",
+        "name": "Ban",
+        "links": [
+            "3e4196fcfe60dd91"
+        ],
+        "x": 795,
+        "y": 420,
+        "wires": [
+            [
+                "216bb963f207e682"
+            ]
+        ]
+    },
+    {
+        "id": "d1e21ddc83cc908f",
+        "type": "debug",
+        "z": "bedf5b9469855c83",
+        "g": "c3a384b88e4aae92",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1100,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "b7796720760df4ca",
+        "type": "function",
+        "z": "bedf5b9469855c83",
+        "g": "c3a384b88e4aae92",
+        "name": "Unban",
+        "func": "const username = msg.payload.event.user_name;\nconst moderator = msg.payload.event.moderator_user_name;\n\nreturn [{payload : username}, {payload : moderator}];",
+        "outputs": 2,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 890,
+        "y": 480,
+        "wires": [
+            [
+                "2a80b4bcb77e25b1"
+            ],
+            [
+                "2a80b4bcb77e25b1"
+            ]
+        ],
+        "outputLabels": [
+            "Banned User",
+            "Moderator"
+        ]
+    },
+    {
+        "id": "e7138cd2dc73b8c0",
+        "type": "link in",
+        "z": "bedf5b9469855c83",
+        "g": "c3a384b88e4aae92",
+        "name": "Unban",
+        "links": [
+            "ec063c27cbdff5bc"
+        ],
+        "x": 795,
+        "y": 480,
+        "wires": [
+            [
+                "b7796720760df4ca"
+            ]
+        ]
+    },
+    {
+        "id": "2a80b4bcb77e25b1",
+        "type": "debug",
+        "z": "bedf5b9469855c83",
+        "g": "c3a384b88e4aae92",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1100,
+        "y": 480,
+        "wires": []
+    },
+    {
+        "id": "3ee0a398d56ce81b",
+        "type": "function",
+        "z": "bedf5b9469855c83",
+        "g": "c3a384b88e4aae92",
+        "name": "Channel Point",
+        "func": "const username = msg.payload.event.user_name;\nconst message = msg.payload.event.user_input;\nconst title = msg.payload.event.reward.title;\nconst prompt = msg.payload.event.reward.prompt;\nconst cost = msg.payload.event.reward.cost;\n\nreturn [{payload : username}, {payload : message}, {payload : title}, {payload : prompt}, {payload : cost}];",
+        "outputs": 5,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 920,
+        "y": 540,
+        "wires": [
+            [
+                "bb15db95da85594b"
+            ],
+            [
+                "bb15db95da85594b"
+            ],
+            [
+                "bb15db95da85594b"
+            ],
+            [
+                "bb15db95da85594b"
+            ],
+            [
+                "bb15db95da85594b"
+            ]
+        ],
+        "outputLabels": [
+            "Username",
+            "Message",
+            "Title",
+            "Prompt",
+            "Cost"
+        ]
+    },
+    {
+        "id": "2720e13c28d5f2a6",
+        "type": "link in",
+        "z": "bedf5b9469855c83",
+        "g": "c3a384b88e4aae92",
+        "name": "Channel Points",
+        "links": [
+            "b97c23ba88296b1b"
+        ],
+        "x": 795,
+        "y": 540,
+        "wires": [
+            [
+                "3ee0a398d56ce81b"
+            ]
+        ]
+    },
+    {
+        "id": "bb15db95da85594b",
+        "type": "debug",
+        "z": "bedf5b9469855c83",
+        "g": "c3a384b88e4aae92",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1100,
+        "y": 540,
+        "wires": []
+    },
+    {
+        "id": "f23b95398eaa0fb5",
+        "type": "function",
+        "z": "bedf5b9469855c83",
+        "g": "c3a384b88e4aae92",
+        "name": "Poll Begin",
+        "func": "const title = msg.payload.event.title;\nconst choices = msg.payload.event.choices;\nconst end = msg.payload.event.ends_at;\n\nreturn [{payload : title}, {payload : choices}, {payload : end}];",
+        "outputs": 3,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 900,
+        "y": 610,
+        "wires": [
+            [
+                "0a6403e990465b45"
+            ],
+            [
+                "0a6403e990465b45"
+            ],
+            [
+                "0a6403e990465b45"
+            ]
+        ],
+        "outputLabels": [
+            "Title",
+            "Choices",
+            "End"
+        ]
+    },
+    {
+        "id": "c977fc48940eaa1f",
+        "type": "link in",
+        "z": "bedf5b9469855c83",
+        "g": "c3a384b88e4aae92",
+        "name": "Poll Begin",
+        "links": [
+            "f71de6f3f45ab546"
+        ],
+        "x": 795,
+        "y": 610,
+        "wires": [
+            [
+                "f23b95398eaa0fb5"
+            ]
+        ]
+    },
+    {
+        "id": "0a6403e990465b45",
+        "type": "debug",
+        "z": "bedf5b9469855c83",
+        "g": "c3a384b88e4aae92",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1100,
+        "y": 610,
+        "wires": []
+    },
+    {
+        "id": "e66321b5eebb9e62",
+        "type": "function",
+        "z": "bedf5b9469855c83",
+        "g": "c3a384b88e4aae92",
+        "name": "Poll Progress",
+        "func": "const title = msg.payload.event.title;\nconst choices = msg.payload.event.choices;\nconst end = msg.payload.event.ends_at;\n\nreturn [{payload : title}, {payload : choices}, {payload : end}];",
+        "outputs": 3,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 910,
+        "y": 660,
+        "wires": [
+            [
+                "82982a94bf2f96e5"
+            ],
+            [
+                "82982a94bf2f96e5"
+            ],
+            [
+                "82982a94bf2f96e5"
+            ]
+        ],
+        "outputLabels": [
+            "Title",
+            "Choices",
+            "End"
+        ]
+    },
+    {
+        "id": "013eac261f7f830a",
+        "type": "link in",
+        "z": "bedf5b9469855c83",
+        "g": "c3a384b88e4aae92",
+        "name": "Poll Progress",
+        "links": [
+            "52f26835eeca107c"
+        ],
+        "x": 795,
+        "y": 660,
+        "wires": [
+            [
+                "e66321b5eebb9e62"
+            ]
+        ]
+    },
+    {
+        "id": "82982a94bf2f96e5",
+        "type": "debug",
+        "z": "bedf5b9469855c83",
+        "g": "c3a384b88e4aae92",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1100,
+        "y": 660,
+        "wires": []
+    },
+    {
+        "id": "7822bd853ff32202",
+        "type": "function",
+        "z": "bedf5b9469855c83",
+        "g": "c3a384b88e4aae92",
+        "name": "Poll End",
+        "func": "const title = msg.payload.event.title;\nconst choices = msg.payload.event.choices;\n\nreturn [{payload : title}, {payload : choices}];",
+        "outputs": 2,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 900,
+        "y": 710,
+        "wires": [
+            [
+                "e3a2b757bc7b4f00"
+            ],
+            [
+                "e3a2b757bc7b4f00"
+            ]
+        ],
+        "outputLabels": [
+            "Title",
+            "Choices"
+        ]
+    },
+    {
+        "id": "440ca17ff1420dfe",
+        "type": "link in",
+        "z": "bedf5b9469855c83",
+        "g": "c3a384b88e4aae92",
+        "name": "Poll End",
+        "links": [
+            "90d9f9f778dfea84"
+        ],
+        "x": 795,
+        "y": 710,
+        "wires": [
+            [
+                "7822bd853ff32202"
+            ]
+        ]
+    },
+    {
+        "id": "e3a2b757bc7b4f00",
+        "type": "debug",
+        "z": "bedf5b9469855c83",
+        "g": "c3a384b88e4aae92",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1100,
+        "y": 710,
+        "wires": []
+    },
+    {
+        "id": "bf777e01107c8dad",
+        "type": "function",
+        "z": "bedf5b9469855c83",
+        "g": "c3a384b88e4aae92",
+        "name": "Prediction Begin",
+        "func": "const title = msg.payload.event.title;\nconst outcomes = msg.payload.event.outcomes;\nconst end = msg.payload.event.locks_at;\n\nreturn [{payload : title}, {payload : outcomes}, {payload : end}];",
+        "outputs": 3,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 920,
+        "y": 760,
+        "wires": [
+            [
+                "cf8eb778297937fe"
+            ],
+            [
+                "cf8eb778297937fe"
+            ],
+            [
+                "cf8eb778297937fe"
+            ]
+        ],
+        "outputLabels": [
+            "Title",
+            "Outcomes",
+            "End"
+        ]
+    },
+    {
+        "id": "02eff79de54243df",
+        "type": "link in",
+        "z": "bedf5b9469855c83",
+        "g": "c3a384b88e4aae92",
+        "name": "Prediction Begin",
+        "links": [
+            "956b7e15e56e3e6e"
+        ],
+        "x": 795,
+        "y": 760,
+        "wires": [
+            [
+                "bf777e01107c8dad"
+            ]
+        ]
+    },
+    {
+        "id": "cf8eb778297937fe",
+        "type": "debug",
+        "z": "bedf5b9469855c83",
+        "g": "c3a384b88e4aae92",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1100,
+        "y": 770,
+        "wires": []
+    },
+    {
+        "id": "31b7edc241da122b",
+        "type": "function",
+        "z": "bedf5b9469855c83",
+        "g": "c3a384b88e4aae92",
+        "name": "Prediction Progress",
+        "func": "const title = msg.payload.event.title;\nconst outcomes = msg.payload.event.outcomes;\nconst end = msg.payload.event.locks_at;\n\nreturn [{payload : title}, {payload : outcomes}, {payload : end}];",
+        "outputs": 3,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 930,
+        "y": 820,
+        "wires": [
+            [
+                "d3ae76bd5a99fe61"
+            ],
+            [
+                "d3ae76bd5a99fe61"
+            ],
+            [
+                "d3ae76bd5a99fe61"
+            ]
+        ],
+        "outputLabels": [
+            "Title",
+            "Outcomes",
+            "End"
+        ]
+    },
+    {
+        "id": "58059205d3b59963",
+        "type": "link in",
+        "z": "bedf5b9469855c83",
+        "g": "c3a384b88e4aae92",
+        "name": "Prediction Progress",
+        "links": [
+            "03c5d3303b39046e"
+        ],
+        "x": 795,
+        "y": 820,
+        "wires": [
+            [
+                "31b7edc241da122b"
+            ]
+        ]
+    },
+    {
+        "id": "d3ae76bd5a99fe61",
+        "type": "debug",
+        "z": "bedf5b9469855c83",
+        "g": "c3a384b88e4aae92",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1110,
+        "y": 820,
+        "wires": []
+    },
+    {
+        "id": "4ce638dd76c24bdb",
+        "type": "function",
+        "z": "bedf5b9469855c83",
+        "g": "c3a384b88e4aae92",
+        "name": "Prediction End",
+        "func": "const title = msg.payload.event.title;\nconst outcomes = msg.payload.event.outcomes;\n\nreturn [{payload : title}, {payload : outcomes}];",
+        "outputs": 2,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 920,
+        "y": 870,
+        "wires": [
+            [
+                "9438739a0d42032a"
+            ],
+            [
+                "9438739a0d42032a"
+            ]
+        ],
+        "outputLabels": [
+            "Title",
+            "Outcomes"
+        ]
+    },
+    {
+        "id": "d8842a92a68f0e27",
+        "type": "link in",
+        "z": "bedf5b9469855c83",
+        "g": "c3a384b88e4aae92",
+        "name": "Prediction End",
+        "links": [
+            "8b358c8a79eba44f"
+        ],
+        "x": 795,
+        "y": 870,
+        "wires": [
+            [
+                "4ce638dd76c24bdb"
+            ]
+        ]
+    },
+    {
+        "id": "9438739a0d42032a",
+        "type": "debug",
+        "z": "bedf5b9469855c83",
+        "g": "c3a384b88e4aae92",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1100,
+        "y": 870,
+        "wires": []
+    },
+    {
+        "id": "ba962cb706960ca3",
+        "type": "function",
+        "z": "bedf5b9469855c83",
+        "g": "c3a384b88e4aae92",
+        "name": "HypeTrain Begin",
+        "func": "const total = msg.payload.event.total;\nconst progress = msg.payload.event.progress;\nconst goal = msg.payload.event.goal;\nconst top_contrib = msg.payload.event.top_contributions;\nconst last_contrib = msg.payload.event.last_contribution;\n\nreturn [{payload : total}, {payload : progress}, {payload : goal}, {payload : top_contrib}, {payload : last_contrib}];",
+        "outputs": 5,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 930,
+        "y": 930,
+        "wires": [
+            [
+                "bcf41039c5488aa0"
+            ],
+            [
+                "bcf41039c5488aa0"
+            ],
+            [
+                "bcf41039c5488aa0"
+            ],
+            [
+                "bcf41039c5488aa0"
+            ],
+            [
+                "bcf41039c5488aa0"
+            ]
+        ],
+        "outputLabels": [
+            "Total",
+            "Progress",
+            "Goal",
+            "Top contrib",
+            "Last contrib"
+        ]
+    },
+    {
+        "id": "3445992ddf31cb4e",
+        "type": "link in",
+        "z": "bedf5b9469855c83",
+        "g": "c3a384b88e4aae92",
+        "name": "HypeTrain Begin",
+        "links": [
+            "aa03c725061760dd"
+        ],
+        "x": 795,
+        "y": 930,
+        "wires": [
+            [
+                "ba962cb706960ca3"
+            ]
+        ]
+    },
+    {
+        "id": "bcf41039c5488aa0",
+        "type": "debug",
+        "z": "bedf5b9469855c83",
+        "g": "c3a384b88e4aae92",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1120,
+        "y": 930,
+        "wires": []
+    },
+    {
+        "id": "2082c62be84dcf16",
+        "type": "function",
+        "z": "bedf5b9469855c83",
+        "g": "c3a384b88e4aae92",
+        "name": "HypeTrain Progress",
+        "func": "const level = msg.payload.event.level;\nconst total = msg.payload.event.total;\nconst progress = msg.payload.event.progress;\nconst goal = msg.payload.event.goal;\nconst top_contrib = msg.payload.event.top_contributions;\nconst last_contrib = msg.payload.event.last_contribution;\n\nreturn [{payload : level}, {payload : total}, {payload : progress}, {payload : goal}, {payload : top_contrib}, {payload : last_contrib}];",
+        "outputs": 6,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 940,
+        "y": 1020,
+        "wires": [
+            [
+                "9f32750213a4f0c6"
+            ],
+            [
+                "9f32750213a4f0c6"
+            ],
+            [
+                "9f32750213a4f0c6"
+            ],
+            [
+                "9f32750213a4f0c6"
+            ],
+            [
+                "9f32750213a4f0c6"
+            ],
+            [
+                "9f32750213a4f0c6"
+            ]
+        ],
+        "outputLabels": [
+            "Level",
+            "Total",
+            "Progress",
+            "Goal",
+            "Top contrib",
+            "Last contrib"
+        ]
+    },
+    {
+        "id": "1d7fb21bf35a91b8",
+        "type": "link in",
+        "z": "bedf5b9469855c83",
+        "g": "c3a384b88e4aae92",
+        "name": "HypeTrain Progress",
+        "links": [
+            "a3ee39814135cad2"
+        ],
+        "x": 795,
+        "y": 1020,
+        "wires": [
+            [
+                "2082c62be84dcf16"
+            ]
+        ]
+    },
+    {
+        "id": "9f32750213a4f0c6",
+        "type": "debug",
+        "z": "bedf5b9469855c83",
+        "g": "c3a384b88e4aae92",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1150,
+        "y": 1020,
+        "wires": []
+    },
+    {
+        "id": "65537eb9b8bb35b8",
+        "type": "function",
+        "z": "bedf5b9469855c83",
+        "g": "c3a384b88e4aae92",
+        "name": "HyperTrain End",
+        "func": "const level = msg.payload.event.level;\nconst total = msg.payload.event.total;\nconst top_contrib = msg.payload.event.top_contributions;\n\nreturn [{payload : level}, {payload : total},  {payload : top_contrib}];",
+        "outputs": 3,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 920,
+        "y": 1100,
+        "wires": [
+            [
+                "df791e577307e9f7"
+            ],
+            [
+                "df791e577307e9f7"
+            ],
+            [
+                "df791e577307e9f7"
+            ]
+        ],
+        "outputLabels": [
+            "Level",
+            "Total",
+            "Top contrib"
+        ]
+    },
+    {
+        "id": "c22851c0379367b6",
+        "type": "link in",
+        "z": "bedf5b9469855c83",
+        "g": "c3a384b88e4aae92",
+        "name": "HypeTrain End",
+        "links": [
+            "74a51ad373778ee6"
+        ],
+        "x": 795,
+        "y": 1100,
+        "wires": [
+            [
+                "65537eb9b8bb35b8"
+            ]
+        ]
+    },
+    {
+        "id": "df791e577307e9f7",
+        "type": "debug",
+        "z": "bedf5b9469855c83",
+        "g": "c3a384b88e4aae92",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1120,
+        "y": 1100,
+        "wires": []
+    },
+    {
+        "id": "44c07fb9fc35c75c",
+        "type": "debug",
+        "z": "bedf5b9469855c83",
+        "g": "c3a384b88e4aae92",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1100,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "b30cfc59e8cbe783",
+        "type": "function",
+        "z": "bedf5b9469855c83",
+        "g": "c3a384b88e4aae92",
+        "name": "Stream Online",
+        "func": "const broadcaster = msg.payload.event.broadcaster_user_login;\nconst type = msg.payload.event.type;\n\nreturn [{ payload: broadcaster }, { payload: type }];",
+        "outputs": 2,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 920,
+        "y": 1150,
+        "wires": [
+            [
+                "4f2895be0123f5f4"
+            ],
+            [
+                "4f2895be0123f5f4"
+            ]
+        ]
+    },
+    {
+        "id": "97fecabe81f273fd",
+        "type": "link in",
+        "z": "bedf5b9469855c83",
+        "g": "c3a384b88e4aae92",
+        "name": "Stream Online",
+        "links": [
+            "104b71d90f13b9fa"
+        ],
+        "x": 795,
+        "y": 1150,
+        "wires": [
+            [
+                "b30cfc59e8cbe783"
+            ]
+        ]
+    },
+    {
+        "id": "4f2895be0123f5f4",
+        "type": "debug",
+        "z": "bedf5b9469855c83",
+        "g": "c3a384b88e4aae92",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1120,
+        "y": 1150,
+        "wires": []
+    },
+    {
+        "id": "63c02972795b5176",
+        "type": "link in",
+        "z": "bedf5b9469855c83",
+        "g": "c3a384b88e4aae92",
+        "name": "Stream Offline",
+        "links": [
+            "07c0971dd23dd62d"
+        ],
+        "x": 795,
+        "y": 1200,
+        "wires": [
+            [
+                "e3d6d7b46a2d2955"
+            ]
+        ]
+    },
+    {
+        "id": "e3d6d7b46a2d2955",
+        "type": "function",
+        "z": "bedf5b9469855c83",
+        "g": "c3a384b88e4aae92",
+        "name": "Stream Offline",
+        "func": "const broadcaster = msg.payload.event.broadcaster_user_login;\n\nreturn [{ payload: broadcaster }];",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 920,
+        "y": 1200,
+        "wires": [
+            [
+                "aa6229c18fc2ac6d"
+            ]
+        ]
+    },
+    {
+        "id": "aa6229c18fc2ac6d",
+        "type": "debug",
+        "z": "bedf5b9469855c83",
+        "g": "c3a384b88e4aae92",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1120,
+        "y": 1200,
+        "wires": []
+    },
+    {
+        "id": "gen_oauth_state_fn",
+        "type": "function",
+        "z": "df207830040c7255",
+        "g": "fbd6b9fb.b67658",
+        "name": "Generate OAuth State",
+        "func": "// Generate a fresh random CSRF state token before building OAuth URLs\nconst crypto = require('crypto');\nflow.set('OAuthState', crypto.randomBytes(16).toString('hex'));\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 500,
+        "y": 70,
+        "wires": [
+            [
+                "ad6618efadfffb7c",
+                "d063ce8e1987378e"
+            ]
+        ]
+    }
+]
